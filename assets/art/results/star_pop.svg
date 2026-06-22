@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+  <defs>
+    <radialGradient id="spGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF3BE" stop-opacity=".85"/>
+      <stop offset="45%" stop-color="#F8D45B" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#F8D45B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spStar" cx="42%" cy="36%" r="68%">
+      <stop offset="0%" stop-color="#FFFDF2"/>
+      <stop offset="42%" stop-color="#FBE48E"/>
+      <stop offset="100%" stop-color="#EFB939"/>
+    </radialGradient>
+  </defs>
+
+  <!-- soft glow halo -->
+  <circle cx="45" cy="45" r="44" fill="url(#spGlow)"/>
+
+  <!-- main plump 4-point sparkle -->
+  <path d="M45 8
+           C48 30 52 38 74 45
+           C52 52 48 60 45 82
+           C42 60 38 52 16 45
+           C38 38 42 30 45 8 Z"
+        fill="url(#spStar)"/>
+  <!-- inner-bottom shade on lower lobes -->
+  <path d="M45 82 C42 60 38 52 16 45 C40 50 43 56 45 70 C47 56 50 50 74 45 C52 52 48 60 45 82 Z" fill="#D9A22E" opacity=".22"/>
+  <!-- top sheen on upper lobe -->
+  <path d="M45 8 C47 26 50 35 66 43 C50 38 46 30 45 18 C44 30 40 38 24 43 C40 35 43 26 45 8 Z" fill="#fff" opacity=".5"/>
+  <!-- bright core catch-light -->
+  <circle cx="42" cy="40" r="6" fill="#fff" opacity=".7"/>
+
+  <!-- tiny secondary sparkles -->
+  <g opacity=".95">
+    <path d="M74 18 C75 23 76 24 81 25 C76 26 75 27 74 32 C73 27 72 26 67 25 C72 24 73 23 74 18 Z" fill="#FFF3BE"/>
+  </g>
+  <g opacity=".9">
+    <path d="M16 64 C16.7 67.5 17.5 68.3 21 69 C17.5 69.7 16.7 70.5 16 74 C15.3 70.5 14.5 69.7 11 69 C14.5 68.3 15.3 67.5 16 64 Z" fill="#FFF3BE"/>
+  </g>
+  <circle cx="72" cy="62" r="2.4" fill="#FFFDF2" opacity=".85"/>
+</svg>

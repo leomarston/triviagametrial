@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 52" width="92" height="52">
+  <defs>
+    <linearGradient id="toffTrack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2E2649"/>
+      <stop offset="100%" stop-color="#3A3059"/>
+    </linearGradient>
+    <radialGradient id="toffKnob" cx="38%" cy="32%" r="78%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F4F1FB"/>
+      <stop offset="100%" stop-color="#DAD3EC"/>
+    </radialGradient>
+  </defs>
+  <rect x="2" y="4" width="88" height="44" rx="22" fill="url(#toffTrack)"/>
+  <!-- soft inner shadow on track -->
+  <rect x="6" y="6" width="80" height="18" rx="9" fill="#19132E" opacity=".40"/>
+  <rect x="2.75" y="4.75" width="86.5" height="42.5" rx="21.25" fill="none" stroke="#fff" stroke-opacity=".14" stroke-width="1.5"/>
+  <!-- knob pushed LEFT -->
+  <ellipse cx="24" cy="42" rx="15" ry="3.5" fill="#19132E" opacity=".34"/>
+  <circle cx="24" cy="26" r="18" fill="url(#toffKnob)"/>
+  <path d="M8 21 A18 18 0 0 1 40 21 A14 14 0 0 0 8 21 Z" fill="#fff" opacity=".5"/>
+</svg>

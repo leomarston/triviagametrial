@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 104" width="380" height="104" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="bsBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A4B86" stop-opacity=".92"/>
+      <stop offset="100%" stop-color="#3C3160" stop-opacity=".92"/>
+    </linearGradient>
+    <linearGradient id="bsSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="190" cy="98" rx="166" ry="9" fill="#1E1838" opacity=".26"/>
+  <rect x="2" y="2" width="376" height="94" rx="30" fill="url(#bsBody)"/>
+  <!-- inner-bottom shade -->
+  <path d="M2 72 H378 V66 C378 84 364 96 348 96 H32 C16 96 2 84 2 66 Z" fill="#241D3E" opacity=".30"/>
+  <!-- top sheen band -->
+  <rect x="18" y="12" width="344" height="32" rx="16" fill="url(#bsSheen)"/>
+  <!-- 1.5px light inner rim -->
+  <rect x="6.75" y="6.75" width="366.5" height="84.5" rx="26" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="1.5"/>
+</svg>

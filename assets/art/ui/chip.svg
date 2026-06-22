@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 84" width="200" height="84" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="chBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4E4079" stop-opacity=".88"/>
+      <stop offset="100%" stop-color="#332A52" stop-opacity=".88"/>
+    </linearGradient>
+    <linearGradient id="chSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="79" rx="86" ry="5" fill="#1E1838" opacity=".22"/>
+  <rect x="2" y="2" width="196" height="76" rx="22" fill="url(#chBody)"/>
+  <path d="M2 58 H198 V54 C198 68 188 76 176 76 H24 C12 76 2 68 2 54 Z" fill="#221B3B" opacity=".26"/>
+  <rect x="14" y="10" width="172" height="26" rx="13" fill="url(#chSheen)"/>
+  <rect x="6.75" y="6.75" width="186.5" height="66.5" rx="18.5" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

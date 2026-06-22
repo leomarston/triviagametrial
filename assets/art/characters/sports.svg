@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <radialGradient id="spoBall" cx="38%" cy="32%" r="74%">
+      <stop offset="0%" stop-color="#FBB066"/><stop offset="100%" stop-color="#E2802F"/>
+    </radialGradient>
+    <clipPath id="ballClip"><circle cx="80" cy="90" r="48"/></clipPath>
+  </defs>
+  <ellipse cx="80" cy="150" rx="46" ry="8" fill="#1E1838" opacity=".26"/>
+  <!-- basketball -->
+  <circle cx="80" cy="90" r="48" fill="url(#spoBall)"/>
+  <g clip-path="url(#ballClip)" stroke="#7E3F12" stroke-width="3.4" fill="none" stroke-opacity=".85">
+    <path d="M32 90 H128"/>
+    <path d="M80 42 V138"/>
+    <path d="M44 50 Q80 78 116 50"/>
+    <path d="M44 130 Q80 102 116 130"/>
+  </g>
+  <!-- sweatband -->
+  <path d="M34 66 Q80 50 126 66 L126 78 Q80 62 34 78 Z" fill="#EC4B57"/>
+  <path d="M34 66 Q80 52 126 66 L126 70 Q80 56 34 70 Z" fill="#F46974"/>
+  <rect x="72" y="58" width="16" height="9" rx="2" fill="#fff"/>
+  <rect x="72" y="58" width="16" height="9" rx="2" fill="#EC4B57" opacity="0"/>
+  <line x1="76" y1="58" x2="76" y2="67" stroke="#EC4B57" stroke-width="2"/>
+  <line x1="80" y1="58" x2="80" y2="67" stroke="#EC4B57" stroke-width="2"/>
+  <line x1="84" y1="58" x2="84" y2="67" stroke="#EC4B57" stroke-width="2"/>
+  <!-- shine -->
+  <path d="M50 64 a48 48 0 0 1 16 -10" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="6" stroke-linecap="round"/>
+  <!-- determined face -->
+  <path d="M62 84 q8 -4 14 1" stroke="#5a2a0c" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+  <path d="M98 84 q-8 -4 -14 1" stroke="#5a2a0c" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+  <circle cx="69" cy="96" r="7.5" fill="#fff"/>
+  <circle cx="91" cy="96" r="7.5" fill="#fff"/>
+  <circle cx="70.5" cy="97.5" r="3.8" fill="#3a1f0c"/>
+  <circle cx="92.5" cy="97.5" r="3.8" fill="#3a1f0c"/>
+  <circle cx="68.8" cy="95.4" r="1.4" fill="#fff"/>
+  <circle cx="90.8" cy="95.4" r="1.4" fill="#fff"/>
+  <path d="M70 110 q10 7 20 0" fill="none" stroke="#5a2a0c" stroke-width="3" stroke-linecap="round"/>
+</svg>

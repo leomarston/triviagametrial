@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 170" width="130" height="170">
+  <defs>
+    <linearGradient id="mgDisc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBE08A"/>
+      <stop offset="50%" stop-color="#F2C24E"/>
+      <stop offset="100%" stop-color="#E3A52A"/>
+    </linearGradient>
+    <linearGradient id="mgRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4CC63"/>
+      <stop offset="100%" stop-color="#CC9420"/>
+    </linearGradient>
+    <radialGradient id="mgSheen" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#FFFBE9" stop-opacity=".85"/>
+      <stop offset="55%" stop-color="#FFFBE9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mgRibL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5BDAD2"/>
+      <stop offset="100%" stop-color="#1E9CC8"/>
+    </linearGradient>
+    <linearGradient id="mgRibR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F58CBE"/>
+      <stop offset="100%" stop-color="#E5428C"/>
+    </linearGradient>
+    <linearGradient id="mgStar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF8DF"/>
+      <stop offset="100%" stop-color="#F1CF6E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="65" cy="160" rx="42" ry="8" fill="#1E1838" opacity=".26"/>
+
+  <!-- crossed ribbon straps (behind disc) -->
+  <path d="M50 14 L82 96 L62 102 L34 22 Z" fill="url(#mgRibR)"/>
+  <path d="M80 14 L48 96 L68 102 L96 22 Z" fill="url(#mgRibL)"/>
+  <!-- ribbon sheens -->
+  <path d="M52 16 L72 66 L66 68 L46 20 Z" fill="#fff" opacity=".18"/>
+  <path d="M78 16 L58 66 L64 68 L84 20 Z" fill="#fff" opacity=".18"/>
+  <!-- folded ribbon top ends -->
+  <path d="M34 22 L50 14 L56 22 L40 30 Z" fill="#D33A7E"/>
+  <path d="M96 22 L80 14 L74 22 L90 30 Z" fill="#1990BC"/>
+  <path d="M40 30 L56 22 L54 26 L42 32 Z" fill="#1E1838" opacity=".18"/>
+  <path d="M90 30 L74 22 L76 26 L88 32 Z" fill="#1E1838" opacity=".18"/>
+
+  <!-- medal disc -->
+  <circle cx="65" cy="116" r="46" fill="url(#mgRim)"/>
+  <circle cx="65" cy="114" r="46" fill="url(#mgRim)"/>
+  <circle cx="65" cy="114" r="39" fill="url(#mgDisc)"/>
+  <!-- inner-bottom shade -->
+  <path d="M28 124 A39 39 0 0 0 102 124 A39 39 0 0 1 28 124 Z" fill="#B5811C" opacity=".28"/>
+  <!-- soft sheen -->
+  <path d="M34 96 A39 39 0 0 1 96 96 A30 30 0 0 0 34 96 Z" fill="url(#mgSheen)"/>
+  <circle cx="65" cy="114" r="39" fill="url(#mgSheen)"/>
+
+  <!-- star motif -->
+  <g transform="translate(65 116)">
+    <path d="M0 -22 L6.2 -7 L22 -6 L10 4.5 L13.6 20 L0 11.5 L-13.6 20 L-10 4.5 L-22 -6 L-6.2 -7 Z" fill="url(#mgStar)"/>
+    <path d="M0 -22 L6.2 -7 L22 -6 L10 4.5 L13.6 20 L0 11.5 Z" fill="#D9A22E" opacity=".4"/>
+    <path d="M0 -22 L6.2 -7 L13 -6.5 L4 1 Z" fill="#fff" opacity=".5"/>
+  </g>
+</svg>

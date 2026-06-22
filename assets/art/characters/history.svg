@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="hisPaper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCEFC9"/><stop offset="100%" stop-color="#F2D78C"/>
+    </linearGradient>
+    <linearGradient id="hisRoll" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F6E3A0"/><stop offset="100%" stop-color="#E6C45F"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="80" cy="150" rx="46" ry="8" fill="#1E1838" opacity=".26"/>
+  <!-- top rolled bar -->
+  <rect x="30" y="34" width="100" height="20" rx="10" fill="url(#hisRoll)"/>
+  <ellipse cx="34" cy="44" rx="7" ry="11" fill="#D9B24E"/>
+  <ellipse cx="126" cy="44" rx="7" ry="11" fill="#D9B24E"/>
+  <!-- parchment sheet -->
+  <path d="M40 50 H120 V120 Q120 128 112 128 H48 Q40 128 40 120 Z" fill="url(#hisPaper)"/>
+  <path d="M40 50 H120 V62 Q80 56 40 62 Z" fill="#fff" opacity=".3"/>
+  <!-- writing lines -->
+  <g stroke="#D8B968" stroke-width="3" stroke-linecap="round" opacity=".8">
+    <line x1="52" y1="66" x2="108" y2="66"/>
+    <line x1="52" y1="74" x2="96" y2="74"/>
+  </g>
+  <!-- bottom rolled bar -->
+  <rect x="30" y="120" width="100" height="20" rx="10" fill="url(#hisRoll)"/>
+  <ellipse cx="34" cy="130" rx="7" ry="11" fill="#D9B24E"/>
+  <ellipse cx="126" cy="130" rx="7" ry="11" fill="#D9B24E"/>
+  <!-- wax seal -->
+  <circle cx="80" cy="112" r="11" fill="#C9333E"/>
+  <circle cx="80" cy="110" r="11" fill="#EC4B57"/>
+  <path d="M80 104 l2 4 4 .4 -3 3 .8 4 -3.8 -2 -3.8 2 .8 -4 -3 -3 4 -.4 z" fill="#fff" opacity=".7"/>
+  <!-- face on parchment -->
+  <circle cx="66" cy="86" r="7.5" fill="#fff"/>
+  <circle cx="94" cy="86" r="7.5" fill="#fff"/>
+  <circle cx="67.5" cy="87.5" r="3.8" fill="#6a4a18"/>
+  <circle cx="95.5" cy="87.5" r="3.8" fill="#6a4a18"/>
+  <circle cx="64.8" cy="85.4" r="1.4" fill="#fff"/>
+  <circle cx="92.8" cy="85.4" r="1.4" fill="#fff"/>
+  <path d="M68 97 q12 7 24 0" fill="none" stroke="#6a4a18" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="56" cy="95" r="3.4" fill="#EFA24E" opacity=".5"/>
+  <circle cx="104" cy="95" r="3.4" fill="#EFA24E" opacity=".5"/>
+</svg>

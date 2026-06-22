@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 170" width="130" height="170">
+  <defs>
+    <linearGradient id="msDisc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EDEFF5"/>
+      <stop offset="50%" stop-color="#CDD3DF"/>
+      <stop offset="100%" stop-color="#AEB7C7"/>
+    </linearGradient>
+    <linearGradient id="msRim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#DDE1EA"/>
+      <stop offset="100%" stop-color="#98A2B5"/>
+    </linearGradient>
+    <radialGradient id="msSheen" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="msRibL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#BEA6F0"/>
+      <stop offset="100%" stop-color="#8E6FD6"/>
+    </linearGradient>
+    <linearGradient id="msRibR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5BDAD2"/>
+      <stop offset="100%" stop-color="#1E9CC8"/>
+    </linearGradient>
+    <linearGradient id="msStar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C2C9D6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="65" cy="160" rx="42" ry="8" fill="#1E1838" opacity=".26"/>
+
+  <!-- crossed ribbon straps (behind disc) -->
+  <path d="M50 14 L82 96 L62 102 L34 22 Z" fill="url(#msRibR)"/>
+  <path d="M80 14 L48 96 L68 102 L96 22 Z" fill="url(#msRibL)"/>
+  <path d="M52 16 L72 66 L66 68 L46 20 Z" fill="#fff" opacity=".18"/>
+  <path d="M78 16 L58 66 L64 68 L84 20 Z" fill="#fff" opacity=".18"/>
+  <!-- folded ribbon top ends -->
+  <path d="M34 22 L50 14 L56 22 L40 30 Z" fill="#1990BC"/>
+  <path d="M96 22 L80 14 L74 22 L90 30 Z" fill="#7A5DC6"/>
+  <path d="M40 30 L56 22 L54 26 L42 32 Z" fill="#1E1838" opacity=".18"/>
+  <path d="M90 30 L74 22 L76 26 L88 32 Z" fill="#1E1838" opacity=".18"/>
+
+  <!-- medal disc -->
+  <circle cx="65" cy="116" r="46" fill="url(#msRim)"/>
+  <circle cx="65" cy="114" r="46" fill="url(#msRim)"/>
+  <circle cx="65" cy="114" r="39" fill="url(#msDisc)"/>
+  <!-- inner-bottom shade -->
+  <path d="M28 124 A39 39 0 0 0 102 124 A39 39 0 0 1 28 124 Z" fill="#7E889B" opacity=".30"/>
+  <!-- soft sheen -->
+  <path d="M34 96 A39 39 0 0 1 96 96 A30 30 0 0 0 34 96 Z" fill="url(#msSheen)"/>
+  <circle cx="65" cy="114" r="39" fill="url(#msSheen)"/>
+
+  <!-- star motif -->
+  <g transform="translate(65 116)">
+    <path d="M0 -22 L6.2 -7 L22 -6 L10 4.5 L13.6 20 L0 11.5 L-13.6 20 L-10 4.5 L-22 -6 L-6.2 -7 Z" fill="url(#msStar)"/>
+    <path d="M0 -22 L6.2 -7 L22 -6 L10 4.5 L13.6 20 L0 11.5 Z" fill="#8A93A6" opacity=".4"/>
+    <path d="M0 -22 L6.2 -7 L13 -6.5 L4 1 Z" fill="#fff" opacity=".55"/>
+  </g>
+</svg>

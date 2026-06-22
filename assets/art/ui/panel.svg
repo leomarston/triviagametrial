@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="pnBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A3D72" stop-opacity=".82"/>
+      <stop offset="100%" stop-color="#3A2F5C" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="pnSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="300" cy="390" rx="270" ry="12" fill="#1E1838" opacity=".22"/>
+  <rect x="4" y="2" width="592" height="392" rx="32" fill="url(#pnBody)"/>
+  <!-- gentle top sheen -->
+  <path d="M44 4 H556 A32 32 0 0 1 588 36 V70 H12 V36 A32 32 0 0 1 44 4 Z" fill="url(#pnSheen)"/>
+  <!-- inner-bottom shade -->
+  <path d="M4 360 H596 V362 C596 380 580 394 560 394 H40 C20 394 4 380 4 362 Z" fill="#231C3D" opacity=".24"/>
+  <!-- 1.5px light inner rim -->
+  <rect x="8.75" y="6.75" width="582.5" height="384.5" rx="28" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="1.5"/>
+</svg>

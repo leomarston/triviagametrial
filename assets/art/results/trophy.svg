@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 230" width="200" height="230">
+  <defs>
+    <linearGradient id="trGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBE08A"/>
+      <stop offset="48%" stop-color="#F2C24E"/>
+      <stop offset="100%" stop-color="#E3A52A"/>
+    </linearGradient>
+    <linearGradient id="trGoldDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1BD4C"/>
+      <stop offset="100%" stop-color="#C98A1E"/>
+    </linearGradient>
+    <radialGradient id="trBowlSheen" cx="38%" cy="26%" r="74%">
+      <stop offset="0%" stop-color="#FFFBE9" stop-opacity=".9"/>
+      <stop offset="55%" stop-color="#FFFBE9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4CC63"/>
+      <stop offset="100%" stop-color="#D6951F"/>
+    </linearGradient>
+    <linearGradient id="trSheenBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="100" cy="214" rx="62" ry="12" fill="#1E1838" opacity=".26"/>
+
+  <!-- handles (drawn behind the bowl) -->
+  <g>
+    <!-- left handle -->
+    <path d="M52 70 C18 66 14 118 50 124 L50 110 C32 106 34 82 52 84 Z" fill="url(#trGoldDeep)"/>
+    <path d="M52 73 C26 71 24 112 50 118 L50 112 C34 108 32 82 52 84 Z" fill="#fff" opacity=".16"/>
+    <!-- right handle -->
+    <path d="M148 70 C182 66 186 118 150 124 L150 110 C168 106 166 82 148 84 Z" fill="url(#trGoldDeep)"/>
+    <path d="M148 73 C174 71 176 112 150 118 L150 112 C166 108 168 82 148 84 Z" fill="#fff" opacity=".12"/>
+  </g>
+
+  <!-- cup bowl -->
+  <path d="M44 56 H156 L150 110 C148 142 124 162 100 162 C76 162 52 142 50 110 Z" fill="url(#trGold)"/>
+  <!-- bowl rim lip -->
+  <rect x="40" y="50" width="120" height="16" rx="8" fill="url(#trGoldDeep)"/>
+  <rect x="44" y="52" width="112" height="8" rx="4" fill="#FFF1B8" opacity=".6"/>
+  <!-- inner-bottom shade hugging lower bowl -->
+  <path d="M52 112 C56 142 78 158 100 158 C122 158 144 142 148 112 C140 140 122 152 100 152 C78 152 60 140 52 112 Z" fill="#B5811C" opacity=".30"/>
+  <!-- soft bowl sheen -->
+  <path d="M58 64 C70 60 92 60 102 66 C92 96 78 110 64 112 C56 96 54 78 58 64 Z" fill="url(#trBowlSheen)"/>
+  <!-- crisp catch-light streak -->
+  <path d="M64 70 C70 68 80 68 84 72 C78 92 72 102 64 104 C60 92 60 80 64 70 Z" fill="#FFFCEC" opacity=".5"/>
+
+  <!-- white star emblem on cup -->
+  <g transform="translate(100 104)">
+    <path d="M0 -20 L5.6 -6.5 L20 -5.5 L9 4 L12.4 18 L0 10.4 L-12.4 18 L-9 4 L-20 -5.5 L-5.6 -6.5 Z" fill="#FFFCEF"/>
+    <path d="M0 -20 L5.6 -6.5 L20 -5.5 L9 4 L12.4 18 L0 10.4 Z" fill="#E9E0C4" opacity=".55"/>
+  </g>
+
+  <!-- stem -->
+  <path d="M90 162 H110 L112 178 H88 Z" fill="url(#trGoldDeep)"/>
+  <rect x="86" y="160" width="28" height="6" rx="3" fill="#FFF1B8" opacity=".5"/>
+  <!-- pedestal collar -->
+  <rect x="78" y="176" width="44" height="14" rx="7" fill="url(#trBase)"/>
+  <!-- base block -->
+  <path d="M62 190 H138 L132 210 H68 Z" fill="url(#trBase)"/>
+  <rect x="58" y="204" width="84" height="14" rx="7" fill="url(#trGoldDeep)"/>
+  <!-- base sheen -->
+  <rect x="66" y="192" width="68" height="6" rx="3" fill="#fff" opacity=".22"/>
+  <rect x="64" y="206" width="72" height="4" rx="2" fill="#FFF1B8" opacity=".4"/>
+  <!-- base inner shade -->
+  <path d="M62 190 H138 L136.5 195 H63.5 Z" fill="#B5811C" opacity=".18"/>
+</svg>
