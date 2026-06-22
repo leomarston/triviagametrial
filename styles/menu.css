@@ -1,1 +1,89 @@
-/* menu */
+/* ===================== MENU ===================== */
+#screen-menu{ overflow:hidden; }
+
+.menu-decor{ position:absolute; inset:0; pointer-events:none; }
+/* outer node bobs vertically; inner img sways — different cycle lengths so
+   the two never sync, giving a natural, hand-animated idle (not a template). */
+.menu-decor .float{
+  position:absolute;
+  animation:bob var(--bd) ease-in-out infinite both;
+  animation-delay:var(--delay);
+  will-change:transform;
+}
+.menu-decor .float img{
+  width:104px;
+  transform-origin:50% 80%;
+  filter:drop-shadow(0 10px 14px rgba(20,12,40,.35));
+  transform:scale(var(--s));            /* correct rest state before delay starts */
+  animation:sway var(--sd) ease-in-out infinite both;
+  animation-delay:calc(var(--delay) + .6s);
+}
+@keyframes bob{
+  0%,100%{ transform:translateY(0); }
+  50%    { transform:translateY(calc(var(--ba) * -1)); }
+}
+@keyframes sway{
+  0%,100%{ transform:rotate(calc(var(--sr) * -1)) scale(var(--s)); }
+  50%    { transform:rotate(var(--sr))            scale(var(--s)); }
+}
+/* generic gentle bob used by crown / farewell mascot */
+@keyframes floaty{
+  0%,100%{ transform:translateY(0)    rotate(-2deg); }
+  50%    { transform:translateY(-11px) rotate(2deg); }
+}
+
+.menu-inner{
+  position:absolute; top:50%; left:50%; transform:translate(-50%,-52%);
+  display:flex; flex-direction:column; align-items:center; gap:30px;
+  width:560px;
+}
+
+.logo{ position:relative; display:flex; flex-direction:column; align-items:center; }
+.logo-mascot{ width:182px; height:auto; transform-origin:50% 72%; filter:drop-shadow(0 14px 18px rgba(20,12,40,.4)); animation:mascotIdle 5.6s ease-in-out infinite; }
+@keyframes mascotIdle{
+  0%   { transform:translateY(0)    rotate(-2deg)  scale(1);    }
+  45%  { transform:translateY(-14px) rotate(1.6deg) scale(1.015);}
+  70%  { transform:translateY(-5px)  rotate(2.4deg) scale(1);    }
+  100% { transform:translateY(0)    rotate(-2deg)  scale(1);    }
+}
+.logo-words{ position:relative; margin-top:-6px; text-align:center; }
+.logo-ribbon{
+  position:absolute; left:50%; top:46%; width:520px; height:170px; transform:translate(-50%,-50%);
+  background:radial-gradient(ellipse at center, rgba(248,212,91,.30), rgba(248,212,91,0) 68%);
+  filter:blur(4px); pointer-events:none;
+}
+.logo-title{
+  position:relative; font-family:var(--font-display); font-weight:800;
+  font-size:80px; line-height:.9; letter-spacing:2px;
+  -webkit-text-stroke:3.5px #412D08; paint-order:stroke fill;
+}
+.logo-title span, .logo-title em{ font-style:normal; display:inline-block; }
+.logo-title span{
+  background:linear-gradient(180deg,#FFF3C6 0%,#FBD968 52%,#EBA92E 100%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 4px 0 #9A6E18);
+}
+.logo-title em{
+  margin-left:14px;
+  background:linear-gradient(180deg,#FFFFFF 0%,#EAF0FF 55%,#C5D0EC 100%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 4px 0 #7E8AAE);
+}
+.logo-tag{
+  margin-top:14px; font-family:var(--font-ui); font-weight:800; font-size:16px;
+  letter-spacing:.34em; text-transform:uppercase; color:var(--lav);
+}
+
+.menu-buttons{ display:flex; flex-direction:column; gap:16px; width:330px; }
+.menu-buttons .btn{ width:100%; height:74px; }
+.menu-buttons .btn span{ font-size:26px; }
+
+.menu-foot{
+  position:absolute; left:0; right:0; bottom:18px;
+  display:flex; justify-content:space-between; padding:0 30px;
+  font-family:var(--font-ui); font-weight:700; font-size:14px; color:var(--lav-dim);
+}
+
+.bye{ display:flex; flex-direction:column; align-items:center; gap:22px; }
+.bye img{ width:160px; animation:floaty 4s ease-in-out infinite; }
+.bye p{ font-family:var(--font-display); font-weight:700; font-size:34px; color:#fff; }

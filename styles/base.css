@@ -59,3 +59,67 @@ body{
 .hidden{ display:none !important; }
 button{ font-family:inherit; color:inherit; border:0; background:none; cursor:pointer; }
 img{ display:block; -webkit-user-drag:none; user-drag:none; }
+.spacer{ flex:1; }
+
+/* ---------- shared buttons ---------- */
+.btn{
+  position:relative; height:70px; min-width:300px; padding:0 40px;
+  display:inline-flex; align-items:center; justify-content:center;
+  background-repeat:no-repeat; background-position:center; background-size:100% 100%;
+  transition:transform .12s ease, filter .12s ease;
+}
+.btn span{
+  position:relative; font-family:var(--font-display); font-weight:800;
+  font-size:25px; letter-spacing:.05em; color:#fff;
+  text-shadow:0 2px 0 rgba(40,22,8,.30);
+}
+.btn-primary{ background-image:url('../assets/art/ui/btn_primary.svg'); }
+.btn-primary span{ color:#6A4A12; text-shadow:0 1px 0 rgba(255,255,255,.4); }
+.btn-green{ background-image:url('../assets/art/ui/btn_green.svg'); }
+.btn-secondary{ background-image:url('../assets/art/ui/btn_secondary.svg'); }
+.btn.wide{ width:100%; }
+.btn:hover{ transform:translateY(-2px) scale(1.02); filter:brightness(1.05); }
+.btn:active{ transform:translateY(1px) scale(.985); filter:brightness(.98); }
+
+.round-btn{
+  width:58px; height:58px; flex:0 0 auto;
+  background:url('../assets/art/ui/btn_round.svg') center/100% 100% no-repeat;
+  display:grid; place-items:center; transition:transform .12s, filter .12s;
+}
+.round-btn:hover{ transform:scale(1.06); filter:brightness(1.06); }
+.round-btn:active{ transform:scale(.95); }
+.round-btn .ico-back{ width:30px; height:30px; }
+
+/* ---------- toggles ---------- */
+.toggle{
+  width:74px; height:42px; flex:0 0 auto;
+  background:url('../assets/art/ui/toggle_off.svg') center/100% 100% no-repeat;
+  transition:filter .12s;
+}
+.toggle:hover{ filter:brightness(1.06); }
+
+/* ---------- steppers ---------- */
+.stepper-group{ display:inline-flex; align-items:center; gap:14px; }
+.stepper-group.small{ gap:10px; }
+.step{
+  width:50px; height:50px; border-radius:50%;
+  background:url('../assets/art/ui/stepper.svg') center/100% 100% no-repeat;
+  font-family:var(--font-display); font-weight:800; font-size:28px; color:#fff;
+  line-height:1; padding-bottom:4px; transition:transform .1s, filter .1s;
+  text-shadow:0 1px 2px rgba(20,12,40,.5);
+}
+.stepper-group.small .step{ width:42px; height:42px; font-size:24px; }
+.step:hover{ filter:brightness(1.08); }
+.step:active{ transform:scale(.9); }
+.step-val{ font-family:var(--font-display); font-weight:800; font-size:30px; min-width:54px; text-align:center; color:#fff; }
+.stepper-group.small .step-val{ font-size:24px; min-width:38px; }
+
+/* ---------- chips ---------- */
+.chip2{
+  height:50px; padding:0 22px; border-radius:18px;
+  background:url('../assets/art/ui/chip.svg') center/100% 100% no-repeat;
+  font-family:var(--font-display); font-weight:700; font-size:18px; color:var(--lav);
+  transition:transform .1s, filter .1s, color .1s;
+}
+.chip2:hover{ filter:brightness(1.1); }
+.chip2.on{ background-image:url('../assets/art/ui/chip_active.svg'); color:#6A4A12; text-shadow:0 1px 0 rgba(255,255,255,.35); }

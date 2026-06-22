@@ -1,1 +1,91 @@
-/* pregame */
+/* ===================== PREGAME + SETTINGS ===================== */
+#screen-pregame.active{
+  display:flex; flex-direction:column; align-items:center;
+  padding:24px 44px 26px; gap:14px;
+}
+.pg-head, .sheet-head{ display:flex; align-items:center; gap:18px; width:100%; }
+.pg-head h2, .sheet-head h2{ font-family:var(--font-display); font-weight:700; font-size:32px; color:#fff; }
+.pg-head h2{ flex:0 0 auto; }
+
+.pg-section-label{
+  font-family:var(--font-ui); font-weight:800; font-size:13px; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--lav-dim); align-self:center; margin-top:-2px;
+}
+
+/* category select row */
+.cat-row{ display:flex; gap:12px; justify-content:center; }
+.cat-tile{
+  width:138px; padding:10px 8px 12px; border-radius:22px;
+  display:flex; flex-direction:column; align-items:center; gap:8px;
+  background:rgba(255,255,255,.03); transition:transform .14s, background .14s;
+}
+.cat-tile:hover{ transform:translateY(-3px); background:rgba(255,255,255,.08); }
+.cat-art{
+  width:104px; height:104px; border-radius:26px; display:grid; place-items:center;
+  background:linear-gradient(158deg, color-mix(in srgb, var(--cc) 62%, #ffffff), var(--cc));
+  box-shadow:inset 0 -7px 0 rgba(0,0,0,.12), inset 0 7px 0 rgba(255,255,255,.18), 0 8px 14px rgba(20,12,40,.28);
+  transition:transform .14s, box-shadow .14s;
+}
+.cat-art img{ width:86px; height:86px; }
+.cat-name{ font-family:var(--font-display); font-weight:700; font-size:16px; color:#fff; }
+.cat-tile.on{ background:rgba(255,255,255,.12); }
+.cat-tile.on .cat-art{ transform:translateY(-4px) scale(1.05); box-shadow:0 0 0 4px #fff, 0 0 26px var(--cc), 0 10px 18px rgba(20,12,40,.34); }
+.cat-tile.on .cat-name{ color:var(--gold); }
+
+/* config cards */
+.pg-grid{ display:flex; gap:18px; justify-content:center; align-items:stretch; }
+.pg-card{
+  background:rgba(58,47,92,.5); border:1.5px solid rgba(255,255,255,.06);
+  border-radius:22px; padding:14px 22px;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; min-width:250px;
+}
+.pg-card-label{
+  font-family:var(--font-ui); font-weight:800; font-size:12px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--lav);
+}
+.chip-row{ display:flex; gap:9px; flex-wrap:wrap; justify-content:center; }
+
+/* players */
+.pg-players{
+  background:rgba(58,47,92,.5); border:1.5px solid rgba(255,255,255,.06);
+  border-radius:22px; padding:12px 22px 16px; width:912px;
+}
+.pg-players-head{ display:flex; align-items:center; justify-content:center; gap:18px; }
+.player-slots{ display:flex; gap:16px; justify-content:center; margin-top:10px; }
+.pslot{
+  position:relative; width:158px; padding:12px; border-radius:18px;
+  background:rgba(255,255,255,.05);
+  display:flex; flex-direction:column; align-items:center; gap:9px;
+}
+.pslot-av{ width:72px; height:72px; border-radius:18px; overflow:hidden; transition:transform .12s; filter:drop-shadow(0 4px 6px rgba(20,12,40,.3)); }
+.pslot-av:hover{ transform:scale(1.06) rotate(-3deg); }
+.pslot-av img{ width:100%; height:100%; }
+.pslot-name{
+  width:100%; height:34px; text-align:center; border:0; outline:none;
+  background:rgba(0,0,0,.26); border-radius:10px; color:#fff;
+  font-family:var(--font-display); font-weight:700; font-size:16px;
+}
+.pslot-name:focus{ box-shadow:0 0 0 2px var(--gold); background:rgba(0,0,0,.34); }
+.bot-tag, .you-tag{
+  position:absolute; top:8px; right:8px; padding:3px 8px; border-radius:8px;
+  font-family:var(--font-ui); font-weight:800; font-size:10px; letter-spacing:.06em;
+}
+.bot-tag{ background:#372C58; color:var(--lav); }
+.you-tag{ background:linear-gradient(180deg,#FBD968,#E9A92E); color:#5a3e12; }
+
+.pg-start{ width:360px; margin-top:6px; }
+
+/* ---------- settings sheet ---------- */
+#screen-settings.active{ display:grid; place-items:center; }
+.sheet{
+  width:560px; padding:30px 36px 34px; border-radius:32px;
+  background:url('../assets/art/ui/panel.svg') center/100% 100% no-repeat;
+  display:flex; flex-direction:column; gap:18px;
+}
+.settings-list{ display:flex; flex-direction:column; gap:8px; }
+.set-row{
+  display:flex; align-items:center; justify-content:space-between;
+  padding:13px 18px; border-radius:16px; background:rgba(255,255,255,.05);
+}
+.set-label{ font-family:var(--font-display); font-weight:600; font-size:20px; color:#fff; }
+.sheet .btn{ align-self:center; width:280px; margin-top:4px; }
