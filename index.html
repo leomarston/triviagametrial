@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trivia Quest</title>
+<link rel="stylesheet" href="styles/fonts.css">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/menu.css">
+<link rel="stylesheet" href="styles/pregame.css">
+<link rel="stylesheet" href="styles/game.css">
+<link rel="stylesheet" href="styles/results.css">
+</head>
+<body>
+
+<!-- shared svg gradient defs -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="progGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F84C8C"/>
+      <stop offset="100%" stop-color="#FF6E63"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div id="frame">
+
+  <!-- ============ GAME ============ -->
+  <section id="screen-game" class="screen active">
+    <div class="topbar" id="topbar">
+      <!-- player: Anja -->
+      <div class="pcard" data-slot="0">
+        <img class="frame" src="assets/art/ui/player_card.svg" alt="">
+        <img class="avatar" src="assets/art/avatars/av_frog.svg" alt="">
+        <div class="pname">Anja</div>
+        <div class="plabel">POINTS</div>
+        <div class="pts"><img class="badge" src="assets/art/ui/points_badge.svg" alt=""><span class="num">0</span></div>
+      </div>
+
+      <!-- progress coin -->
+      <div class="progress">
+        <img class="coin" src="assets/art/ui/progress_coin.svg" alt="">
+        <svg class="ring" viewBox="0 0 140 140">
+          <circle class="track" cx="70" cy="68" r="57"></circle>
+          <circle class="bar" cx="70" cy="68" r="57" pathLength="100"
+                  stroke-dasharray="100" stroke-dashoffset="83" transform="rotate(-90 70 68)"></circle>
+        </svg>
+        <div class="ptext"><div class="plabel2">Progress</div><div class="ppct">17%</div></div>
+      </div>
+
+      <!-- player: Cristiantian (active) -->
+      <div class="pcard is-active" data-slot="1">
+        <img class="frame" src="assets/art/ui/player_card_active.svg" alt="">
+        <img class="avatar" src="assets/art/avatars/av_cat.svg" alt="">
+        <div class="pname">Cristiantian</div>
+        <div class="plabel">POINTS</div>
+        <div class="pts"><img class="badge" src="assets/art/ui/points_badge.svg" alt=""><span class="num">1</span></div>
+      </div>
+
+      <!-- player: CELINE -->
+      <div class="pcard" data-slot="2">
+        <img class="frame" src="assets/art/ui/player_card.svg" alt="">
+        <img class="avatar" src="assets/art/avatars/av_robot.svg" alt="">
+        <div class="pname">CELINE</div>
+        <div class="plabel">POINTS</div>
+        <div class="pts"><img class="badge" src="assets/art/ui/points_badge.svg" alt=""><span class="num">0</span></div>
+      </div>
+    </div>
+
+    <div class="question-wrap">
+      <h1 class="question">What Star Wars spacecraft would <span class="hl">Cristiantian</span> most want to own?</h1>
+    </div>
+
+    <div class="answers" id="answers">
+      <button class="answer" data-k="a"><span class="a-letter">A</span><span class="a-text">X Wing</span></button>
+      <button class="answer" data-k="b"><span class="a-letter">B</span><span class="a-text">Tie Fighter</span></button>
+      <button class="answer" data-k="c"><span class="a-letter">C</span><span class="a-text">Millennium Falcon</span></button>
+      <button class="answer" data-k="d"><span class="a-letter">D</span><span class="a-text">Star Destroyer</span></button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+  // scale the fixed design frame to fit the viewport (letterboxed, exact proportions)
+  (function(){
+    var frame=document.getElementById('frame');
+    function fit(){
+      var s=Math.min(window.innerWidth/1280, window.innerHeight/720);
+      frame.style.transform='translate(-50%,-50%) scale('+s+')';
+    }
+    window.addEventListener('resize',fit); fit();
+  })();
+</script>
+</body>
+</html>

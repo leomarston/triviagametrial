@@ -1,0 +1,61 @@
+/* ============================================================
+   Trivia Quest — base layer: tokens, fonts, stage, shared bits
+   ============================================================ */
+:root{
+  --bg-deep:#352B54;
+  --ink:#2C2350;
+  --white:#ffffff;
+  --offwhite:#F4F1FB;
+  --lav:#C9BEE8;
+  --lav-dim:#A99FCF;
+
+  --gold:#F8D45B;  --gold-d:#E3A52A;
+  --magenta:#F0428A; --magenta-d:#C9286A;
+  --hl-green:#74D17A;
+
+  --a1:#FCCB80; --a2:#F18E55;
+  --b1:#5BDAD2; --b2:#1E9CC8;
+  --c1:#F58CBE; --c2:#E5428C;
+  --d1:#BEA6F0; --d2:#8E6FD6;
+
+  --sci:#39C16C; --ent:#EC4B57; --art:#A45BD6;
+  --geo:#2E9BD6; --spo:#F3973F; --his:#F4C63E;
+
+  --font-display:'Baloo 2', system-ui, sans-serif;
+  --font-ui:'Nunito', system-ui, sans-serif;
+
+  --shadow-soft:0 18px 40px rgba(20,15,45,.45);
+}
+
+*{ box-sizing:border-box; margin:0; padding:0; }
+html,body{ height:100%; }
+body{
+  background:#2E2548 url('../assets/art/bg/arena.svg') center/cover no-repeat fixed;
+  font-family:var(--font-ui);
+  color:var(--white);
+  overflow:hidden;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  user-select:none;
+}
+
+/* fixed-design frame, scaled to fit any viewport (pixel-true proportions) */
+#frame{
+  position:absolute; top:50%; left:50%;
+  width:1280px; height:720px;
+  transform:translate(-50%,-50%);
+  transform-origin:center center;
+}
+
+.screen{
+  position:absolute; inset:0;
+  display:none;
+  opacity:0;
+}
+.screen.active{ display:block; opacity:1; animation:screenIn .42s cubic-bezier(.2,.8,.25,1); }
+@keyframes screenIn{ from{ opacity:0; transform:scale(.985) } to{ opacity:1; transform:scale(1) } }
+
+/* utility */
+.hidden{ display:none !important; }
+button{ font-family:inherit; color:inherit; border:0; background:none; cursor:pointer; }
+img{ display:block; -webkit-user-drag:none; user-drag:none; }

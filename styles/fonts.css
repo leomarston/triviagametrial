@@ -1,0 +1,16 @@
+/* Self-hosted variable fonts (latin subset) so the kit renders identically
+   offline — no CDN dependency. */
+@font-face{
+  font-family:'Baloo 2';
+  font-style:normal;
+  font-weight:400 800;
+  font-display:swap;
+  src:url('../assets/fonts/Baloo2.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Nunito';
+  font-style:normal;
+  font-weight:400 900;
+  font-display:swap;
+  src:url('../assets/fonts/Nunito.woff2') format('woff2');
+}
