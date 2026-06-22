@@ -16,7 +16,7 @@ const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i
 const clamp  = (v,lo,hi) => Math.max(lo, Math.min(hi, v));
 
 /* ---------- persistent settings ---------- */
-const DEFAULTS = { sound:true, music:false, timer:true, secs:20, hints:false, best:0 };
+const DEFAULTS = { sound:true, music:false, timer:false, secs:20, hints:false, best:0 };
 let settings = load();
 function load(){ try{ return Object.assign({}, DEFAULTS, JSON.parse(localStorage.getItem('tq.settings')||'{}')); }catch(e){ return Object.assign({},DEFAULTS); } }
 function save(){ try{ localStorage.setItem('tq.settings', JSON.stringify(settings)); }catch(e){} }
@@ -207,16 +207,17 @@ function buildQuestions(){
   });
 }
 function startGame(){
-  if(settings.sound) Sfx.start();
   Sfx.setEnabled(settings.sound);
   const players = state.players.slice(0, state.config.playerCount).map((p,i)=>({
     name:p.name||'Player', avatar:p.avatar, isBot:p.isBot, score:0,
     skill: 0.55 + Math.random()*0.3   // bot competence
   }));
   state.run = { qs: buildQuestions(), idx:0, players, active:0, locked:false, mode:state.config.mode };
-  buildTopbar();
+  buildTopbar(); updateTopbar();
+  $('#turnFlag').classList.remove('show');
   show('screen-game');
-  setTimeout(nextQuestion, 350);
+  if(settings.sound) Sfx.start();
+  setTimeout(()=>nextQuestion(), 220);
 }
 
 let topbarRefs = null;
@@ -349,22 +350,49 @@ function resolve(chosen, btn){
   }
   setTimeout(()=>{ updateTopbar(); }, 220);
 
-  // advance
+  // advance: show the mid-game leaderboard between questions
   setTimeout(()=>{
     r.idx++;
     if(r.mode==='pass'){ r.active = (r.active+1) % r.players.length; }
-    if(r.idx >= r.qs.length){ endGame(); } else { nextQuestion(); }
-  }, 1650);
+    if(r.idx >= r.qs.length){ endGame(); }
+    else { showLeaderboard(); }
+  }, 1500);
+}
+
+/* ---------- Kahoot-style mid-game leaderboard ---------- */
+function showLeaderboard(){
+  const r = state.run;
+  const ranked = r.players.map((p,i)=>Object.assign({i},p)).sort((a,b)=>b.score-a.score);
+  const prev = r.prevRank || {};                       // remember last standings
+  $('#lbSub').textContent = `After question ${r.idx} of ${r.qs.length}`;
+  const maxScore = Math.max(1, ranked[0].score);
+  $('#lbList').innerHTML = ranked.map((p,pos)=>{
+    const was = (pos+1) - (prev[p.i] || (pos+1));      // negative = moved up
+    const move = was<0 ? `<svg class="lb-move up" viewBox="0 0 14 14"><path d="M7 2 12 11 2 11 Z"/></svg>`
+               : was>0 ? `<svg class="lb-move down" viewBox="0 0 14 14"><path d="M7 12 2 3 12 3 Z"/></svg>`
+               : `<span class="lb-move flat"></span>`;
+    const w = 30 + (p.score / maxScore) * 70;
+    return `<div class="lb-row ${pos===0?'lead':''} ${p.i===0?'me':''}" style="--w:${w}%">
+        <span class="lb-pos">${pos+1}</span>
+        <img class="lb-av" src="${AV(p.avatar)}" alt="">
+        <span class="lb-name">${escapeHtml(p.name)}${p.isBot?' <small>BOT</small>':''}</span>
+        ${move}
+        <span class="lb-score">${p.score}</span>
+      </div>`;
+  }).join('');
+  const np = {}; ranked.forEach((p,pos)=>{ np[p.i]=pos+1; }); r.prevRank = np;
+  show('screen-leaderboard');
+}
+function continueFromBoard(){
+  if(settings.sound) Sfx.click();
+  show('screen-game');
+  nextQuestion();
 }
 function popScore(i, correct){
   const ref = topbarRefs[i]; if(!ref) return;
-  const tag = document.createElement('div');
-  tag.className = 'score-pop ' + (correct?'good':'bad');
-  tag.textContent = correct ? '+1' : '✕';
-  ref.el.appendChild(tag);
-  setTimeout(()=>tag.remove(), 1100);
-  ref.el.classList.remove('shake-good','shake-bad'); void ref.el.offsetWidth;
-  ref.el.classList.add(correct?'shake-good':'shake-bad');
+  const c = correct ? 'flash-good' : 'flash-bad';
+  ref.num.classList.remove('flash-good','flash-bad'); void ref.num.offsetWidth;
+  ref.num.classList.add(c);
 }
 
 /* =========================================================
@@ -444,6 +472,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   fit();
   Sfx.setEnabled(settings.sound);
   initMenu(); initSettings(); initPregame(); initResults();
+  $('#screen-leaderboard [data-act="next-q"]').addEventListener('click', continueFromBoard);
   show('screen-menu');
 });
 })();

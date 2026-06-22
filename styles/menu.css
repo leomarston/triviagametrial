@@ -2,34 +2,12 @@
 #screen-menu{ overflow:hidden; }
 
 .menu-decor{ position:absolute; inset:0; pointer-events:none; }
-/* outer node bobs vertically; inner img sways — different cycle lengths so
-   the two never sync, giving a natural, hand-animated idle (not a template). */
-.menu-decor .float{
-  position:absolute;
-  animation:bob var(--bd) ease-in-out infinite both;
-  animation-delay:var(--delay);
-  will-change:transform;
-}
+/* decorative cast — static, no idle motion */
+.menu-decor .float{ position:absolute; }
 .menu-decor .float img{
   width:104px;
-  transform-origin:50% 80%;
+  transform:scale(var(--s));
   filter:drop-shadow(0 10px 14px rgba(20,12,40,.35));
-  transform:scale(var(--s));            /* correct rest state before delay starts */
-  animation:sway var(--sd) ease-in-out infinite both;
-  animation-delay:calc(var(--delay) + .6s);
-}
-@keyframes bob{
-  0%,100%{ transform:translateY(0); }
-  50%    { transform:translateY(calc(var(--ba) * -1)); }
-}
-@keyframes sway{
-  0%,100%{ transform:rotate(calc(var(--sr) * -1)) scale(var(--s)); }
-  50%    { transform:rotate(var(--sr))            scale(var(--s)); }
-}
-/* generic gentle bob used by crown / farewell mascot */
-@keyframes floaty{
-  0%,100%{ transform:translateY(0)    rotate(-2deg); }
-  50%    { transform:translateY(-11px) rotate(2deg); }
 }
 
 .menu-inner{
@@ -39,13 +17,7 @@
 }
 
 .logo{ position:relative; display:flex; flex-direction:column; align-items:center; }
-.logo-mascot{ width:182px; height:auto; transform-origin:50% 72%; filter:drop-shadow(0 14px 18px rgba(20,12,40,.4)); animation:mascotIdle 5.6s ease-in-out infinite; }
-@keyframes mascotIdle{
-  0%   { transform:translateY(0)    rotate(-2deg)  scale(1);    }
-  45%  { transform:translateY(-14px) rotate(1.6deg) scale(1.015);}
-  70%  { transform:translateY(-5px)  rotate(2.4deg) scale(1);    }
-  100% { transform:translateY(0)    rotate(-2deg)  scale(1);    }
-}
+.logo-mascot{ width:182px; height:auto; filter:drop-shadow(0 14px 18px rgba(20,12,40,.4)); }
 .logo-words{ position:relative; margin-top:-6px; text-align:center; }
 .logo-ribbon{
   position:absolute; left:50%; top:46%; width:520px; height:170px; transform:translate(-50%,-50%);
@@ -85,5 +57,5 @@
 }
 
 .bye{ display:flex; flex-direction:column; align-items:center; gap:22px; }
-.bye img{ width:160px; animation:floaty 4s ease-in-out infinite; }
+.bye img{ width:160px; }
 .bye p{ font-family:var(--font-display); font-weight:700; font-size:34px; color:#fff; }

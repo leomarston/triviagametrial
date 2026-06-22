@@ -56,7 +56,7 @@
 .progress .ring{ position:absolute; inset:0; width:100%; height:100%; transform:rotate(-90deg); }
 .progress .ring circle{ fill:none; stroke-width:9; stroke-linecap:round; }
 .progress .ring .track{ stroke:#ECE6F5; }
-.progress .ring .bar{ stroke:url(#progGrad); transition:stroke-dashoffset .6s cubic-bezier(.3,.9,.3,1); }
+.progress .ring .bar{ stroke:url(#progGrad); }
 .progress .ptext{
   position:absolute; inset:0; display:flex; flex-direction:column;
   align-items:center; justify-content:center; gap:1px;
@@ -111,8 +111,9 @@
   color:#fff; text-shadow:0 2px 2px rgba(50,25,10,.22);
   line-height:1.05;
 }
-.answer:hover{ transform:translateY(-3px) scale(1.012); box-shadow:0 18px 30px rgba(20,12,40,.34); filter:brightness(1.04); }
-.answer:active{ transform:translateY(0) scale(.99); }
+.answer{ transition:filter .12s ease, box-shadow .12s ease; }
+.answer:hover{ box-shadow:0 16px 28px rgba(20,12,40,.34); filter:brightness(1.05); }
+.answer:active{ filter:brightness(.98); }
 
 /* answer states */
 .answers.locked .answer{ pointer-events:none; }
@@ -142,20 +143,8 @@
 }
 .turn-flag.show{ opacity:1; }
 
-/* ---------- score reactions ---------- */
-.score-pop{
-  position:absolute; top:-6px; left:50%; z-index:7; pointer-events:none;
-  font-family:var(--font-display); font-weight:800; font-size:26px;
-  animation:popUp 1.1s ease-out forwards;
-}
-.score-pop.good{ color:#7BE08A; text-shadow:0 2px 6px rgba(20,12,40,.5); }
-.score-pop.bad{ color:#F08A92; text-shadow:0 2px 6px rgba(20,12,40,.5); }
-@keyframes popUp{
-  0%{ opacity:0; transform:translate(-50%,8px) scale(.5); }
-  25%{ opacity:1; transform:translate(-50%,-8px) scale(1.15); }
-  100%{ opacity:0; transform:translate(-50%,-48px) scale(1); }
-}
-.pcard.shake-good{ animation:shakeGood .5s ease; }
-.pcard.shake-bad{ animation:shakeBad .45s ease; }
-@keyframes shakeGood{ 0%,100%{ transform:translateY(0) } 35%{ transform:translateY(-7px) } 70%{ transform:translateY(0) } }
-@keyframes shakeBad{ 0%,100%{ transform:translateX(0) } 25%{ transform:translateX(-5px) } 50%{ transform:translateX(5px) } 75%{ transform:translateX(-3px) } }
+/* ---------- score feedback (still: colour flash only, no movement) ---------- */
+.pcard .pts .num.flash-good{ animation:numGood .9s ease; }
+.pcard .pts .num.flash-bad{ animation:numBad .9s ease; }
+@keyframes numGood{ 0%{ color:#8CEE9A } 100%{ color:#fff } }
+@keyframes numBad{ 0%{ color:#F2A2A8 } 100%{ color:#fff } }
