@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="imTile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2807C"/><stop offset="100%" stop-color="#E0453E"/>
+    </linearGradient>
+    <linearGradient id="imHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FB8E89"/><stop offset="100%" stop-color="#E85850"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#imTile)"/>
+  <rect x="8" y="14" width="64" height="22" rx="11" fill="#fff" opacity=".08"/>
+  <!-- horns -->
+  <path d="M24 26 Q20 12 28 12 Q26 20 30 26Z" fill="#C73A33"/>
+  <path d="M56 26 Q60 12 52 12 Q54 20 50 26Z" fill="#C73A33"/>
+  <!-- head -->
+  <path d="M18 40 Q18 24 40 24 Q62 24 62 40 Q62 60 40 66 Q18 60 18 40Z" fill="url(#imHead)"/>
+  <!-- mischievous brows + eyes -->
+  <path d="M24 38 L36 42" stroke="#5A1714" stroke-width="3" stroke-linecap="round"/>
+  <path d="M56 38 L44 42" stroke="#5A1714" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="31" cy="45" r="6" fill="#fff"/>
+  <circle cx="49" cy="45" r="6" fill="#fff"/>
+  <circle cx="32" cy="46" r="3" fill="#3A1310"/>
+  <circle cx="50" cy="46" r="3" fill="#3A1310"/>
+  <circle cx="30.8" cy="44.6" r="1.2" fill="#fff"/>
+  <circle cx="48.8" cy="44.6" r="1.2" fill="#fff"/>
+  <!-- grin with fangs -->
+  <path d="M30 54 Q40 62 50 54 Q47 58 40 58 Q33 58 30 54Z" fill="#5A1714"/>
+  <path d="M33 55 l3 4 3-4z" fill="#fff"/>
+  <path d="M44 55 l3 4 3-4z" fill="#fff"/>
+  <circle cx="26" cy="52" r="3" fill="#fff" opacity=".25"/>
+  <circle cx="54" cy="52" r="3" fill="#fff" opacity=".25"/>
+</svg>

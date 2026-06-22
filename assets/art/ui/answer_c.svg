@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 150" width="640" height="150" preserveAspectRatio="xMinYMid slice">
+  <defs>
+    <linearGradient id="cBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F79AC6"/>
+      <stop offset="52%" stop-color="#F063A0"/>
+      <stop offset="100%" stop-color="#E5428C"/>
+    </linearGradient>
+    <linearGradient id="cPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC6AA6"/>
+      <stop offset="100%" stop-color="#D2357A"/>
+    </linearGradient>
+    <linearGradient id="cSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="150" rx="26" fill="url(#cBody)"/>
+  <path d="M0 96 C 150 60 360 132 640 70 L640 150 L0 150 Z" fill="#B82E6E" opacity=".24"/>
+  <path d="M0 60 C 180 30 380 96 640 44 L640 8 L0 8 Z" fill="#fff" opacity=".18"/>
+  <rect x="14" y="9" width="612" height="40" rx="20" fill="url(#cSheen)" opacity=".45"/>
+  <path d="M26 0 H150 V150 H26 A26 26 0 0 1 0 124 V26 A26 26 0 0 1 26 0 Z" fill="url(#cPanel)"/>
+  <line x1="150" y1="16" x2="150" y2="134" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+  <line x1="152" y1="16" x2="152" y2="134" stroke="#B82E6E" stroke-opacity=".22" stroke-width="2"/>
+  <rect x="14" y="10" width="124" height="34" rx="16" fill="#fff" opacity=".15"/>
+</svg>

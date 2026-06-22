@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="frTile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7BD98A"/><stop offset="100%" stop-color="#3FB45B"/>
+    </linearGradient>
+    <linearGradient id="frBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FE39A"/><stop offset="100%" stop-color="#52BC66"/>
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="20" fill="url(#frTile)"/>
+  <path d="M8 18 H72 A0 0 0 0 1 72 18 V40 H8 Z" fill="#fff" opacity=".08"/>
+  <!-- eyes bumps on top -->
+  <circle cx="29" cy="30" r="13" fill="url(#frBody)"/>
+  <circle cx="51" cy="30" r="13" fill="url(#frBody)"/>
+  <!-- body -->
+  <path d="M18 44 Q40 70 62 44 Q64 38 58 35 H22 Q16 38 18 44Z" fill="url(#frBody)"/>
+  <!-- eye whites -->
+  <circle cx="29" cy="29" r="8.5" fill="#fff"/>
+  <circle cx="51" cy="29" r="8.5" fill="#fff"/>
+  <circle cx="30.5" cy="31" r="4.2" fill="#23351f"/>
+  <circle cx="52.5" cy="31" r="4.2" fill="#23351f"/>
+  <circle cx="29" cy="29" r="1.6" fill="#fff"/>
+  <circle cx="51" cy="29" r="1.6" fill="#fff"/>
+  <!-- smile -->
+  <path d="M30 48 Q40 56 50 48" fill="none" stroke="#23351f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="24" cy="46" r="3" fill="#F58FA0" opacity=".7"/>
+  <circle cx="56" cy="46" r="3" fill="#F58FA0" opacity=".7"/>
+</svg>

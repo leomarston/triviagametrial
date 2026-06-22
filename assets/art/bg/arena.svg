@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="arenaBase" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#62539B"/>
+      <stop offset="46%" stop-color="#564890"/>
+      <stop offset="100%" stop-color="#3A2F5C"/>
+    </radialGradient>
+    <radialGradient id="rippleFade" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="34%" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="78%" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="rippleMask">
+      <rect width="1920" height="1080" fill="url(#rippleFade)"/>
+    </mask>
+    <linearGradient id="vign" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C2350" stop-opacity=".0"/>
+      <stop offset="100%" stop-color="#2C2350" stop-opacity=".34"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#arenaBase)"/>
+
+  <!-- concentric sound-wave ripples, centred above the middle like the mockup -->
+  <g mask="url(#rippleMask)" fill="none" stroke="#897AC4" stroke-opacity=".16">
+    <g transform="translate(960 452)">
+      <circle r="70"  stroke-width="20"/>
+      <circle r="150" stroke-width="20"/>
+      <circle r="232" stroke-width="22"/>
+      <circle r="318" stroke-width="24"/>
+      <circle r="408" stroke-width="26"/>
+      <circle r="502" stroke-width="28"/>
+      <circle r="600" stroke-width="30"/>
+      <circle r="702" stroke-width="32"/>
+      <circle r="808" stroke-width="34"/>
+      <circle r="918" stroke-width="36"/>
+      <circle r="1032" stroke-width="38"/>
+    </g>
+  </g>
+
+  <!-- faint inner darker rings to deepen the moiré -->
+  <g mask="url(#rippleMask)" fill="none" stroke="#3A2F5C" stroke-opacity=".18">
+    <g transform="translate(960 452)">
+      <circle r="110" stroke-width="14"/>
+      <circle r="191" stroke-width="15"/>
+      <circle r="275" stroke-width="16"/>
+      <circle r="363" stroke-width="17"/>
+      <circle r="455" stroke-width="18"/>
+      <circle r="551" stroke-width="19"/>
+      <circle r="651" stroke-width="20"/>
+      <circle r="755" stroke-width="21"/>
+      <circle r="863" stroke-width="22"/>
+    </g>
+  </g>
+
+  <!-- floating geometric confetti -->
+  <g fill="#B7A7E6" opacity=".10">
+    <path d="M214 250c10-17 35-17 45 0l44 76c10 17-2 38-22 38h-89c-20 0-32-21-22-38z"/>
+    <rect x="1612" y="196" width="86" height="86" rx="22" transform="rotate(18 1655 239)"/>
+    <circle cx="300" cy="858" r="44"/>
+    <path d="M1640 812h22v34h34v22h-34v34h-22v-34h-34v-22h34z"/>
+    <path d="M120 560l16 30 30 16-30 16-16 30-16-30-30-16 30-16z"/>
+  </g>
+  <g fill="#3B2F62" opacity=".34">
+    <rect x="1500" y="900" width="70" height="70" rx="18" transform="rotate(-14 1535 935)"/>
+    <circle cx="1760" cy="540" r="30"/>
+    <path d="M250 120l13 25 25 13-25 13-13 25-13-25-25-13 25-13z"/>
+    <path d="M1820 800h18v28h28v18h-28v28h-18v-28h-28v-18h28z"/>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#vign)"/>
+</svg>

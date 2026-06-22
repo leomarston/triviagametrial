@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 206" width="140" height="206">
+  <defs>
+    <linearGradient id="pcaBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A4B86" stop-opacity=".96"/>
+      <stop offset="100%" stop-color="#41356A" stop-opacity=".96"/>
+    </linearGradient>
+    <linearGradient id="pcaSub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A2F5C"/>
+      <stop offset="100%" stop-color="#322852"/>
+    </linearGradient>
+    <linearGradient id="pcaRing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBDD6B"/>
+      <stop offset="100%" stop-color="#E0A227"/>
+    </linearGradient>
+  </defs>
+  <rect x="67" y="178" width="6" height="14" rx="3" fill="#41356A" fill-opacity=".95"/>
+  <circle cx="70" cy="196" r="8" fill="#564a82"/>
+  <circle cx="70" cy="194" r="8" fill="#7C6BB0"/>
+  <circle cx="67" cy="191" r="2.4" fill="#fff" opacity=".5"/>
+  <!-- gold glow ring -->
+  <rect x="3" y="31" width="134" height="156" rx="27" fill="none" stroke="url(#pcaRing)" stroke-width="3.5"/>
+  <rect x="6" y="34" width="128" height="150" rx="24" fill="url(#pcaBody)"/>
+  <path d="M30 35 H110 A24 24 0 0 1 128 52 V58 H12 V52 A24 24 0 0 1 30 35 Z" fill="#fff" opacity=".07"/>
+  <rect x="16" y="116" width="108" height="56" rx="16" fill="url(#pcaSub)"/>
+  <rect x="16.75" y="116.75" width="106.5" height="54.5" rx="15.25" fill="none" stroke="#1F1A38" stroke-opacity=".7" stroke-width="1.5"/>
+</svg>
