@@ -58,7 +58,7 @@ function initMenu(){
     {art:'science.svg',       x:6,  y:15, s:.92, bd:5.2, ba:13, sd:6.9, sr:3.0, d:0.0, o:.46},
     {art:'sports.svg',        x:87, y:11, s:1.02,bd:6.3, ba:19, sd:5.1, sr:4.5, d:1.6, o:.42},
     {art:'geography.svg',     x:4,  y:69, s:.98, bd:4.6, ba:11, sd:7.6, sr:2.4, d:0.7, o:.5 },
-    {art:'entertainment.svg', x:88, y:64, s:.9, bd:5.9, ba:17, sd:6.1, sr:3.6, d:2.2, o:.4 },
+    {art:'general_knowledge.svg', x:88, y:64, s:.9, bd:5.9, ba:17, sd:6.1, sr:3.6, d:2.2, o:.4 },
     {art:'arts.svg',          x:15, y:88, s:.7, bd:6.7, ba:14, sd:5.7, sr:5.0, d:1.0, o:.38},
     {art:'history.svg',       x:81, y:90, s:.72,bd:4.9, ba:16, sd:7.2, sr:2.2, d:0.4, o:.4 },
   ];
@@ -342,7 +342,7 @@ function resolve(chosen, btn){
   if(r.mode==='solo'){
     r.players.forEach((p,i)=>{
       if(!p.isBot) return;
-      const penalty = q.d==='hard'?0.22 : q.d==='medium'?0.08 : -0.06;
+      const penalty = q.d==='hard'?0.22 : q.d==='normal'?0.08 : -0.06;
       const prob = clamp(p.skill - penalty, 0.2, 0.95);
       if(Math.random() < prob){ p.score++; popScore(i, true); }
       else popScore(i, false);

@@ -1,0 +1,3050 @@
+{
+  "science": {
+    "easy": [
+      [
+        "What is the chemical formula for water?",
+        [
+          "H2O",
+          "CO2",
+          "O2",
+          "NaCl"
+        ],
+        "H2O"
+      ],
+      [
+        "How many legs does an insect have?",
+        [
+          "Four",
+          "Six",
+          "Eight",
+          "Two"
+        ],
+        "Six"
+      ],
+      [
+        "What gas do humans need to breathe to survive?",
+        [
+          "Oxygen",
+          "Carbon dioxide",
+          "Nitrogen",
+          "Helium"
+        ],
+        "Oxygen"
+      ],
+      [
+        "What is the center of an atom called?",
+        [
+          "Nucleus",
+          "Electron",
+          "Molecule",
+          "Cell"
+        ],
+        "Nucleus"
+      ],
+      [
+        "Which planet is known as the Red Planet?",
+        [
+          "Mars",
+          "Venus",
+          "Jupiter",
+          "Saturn"
+        ],
+        "Mars"
+      ],
+      [
+        "What is the largest planet in our solar system?",
+        [
+          "Jupiter",
+          "Saturn",
+          "Earth",
+          "Neptune"
+        ],
+        "Jupiter"
+      ],
+      [
+        "What process do plants use to make food from sunlight?",
+        [
+          "Photosynthesis",
+          "Respiration",
+          "Digestion",
+          "Evaporation"
+        ],
+        "Photosynthesis"
+      ],
+      [
+        "Which organ pumps blood through your body?",
+        [
+          "Heart",
+          "Lung",
+          "Liver",
+          "Brain"
+        ],
+        "Heart"
+      ],
+      [
+        "What is frozen water called?",
+        [
+          "Ice",
+          "Steam",
+          "Vapor",
+          "Dew"
+        ],
+        "Ice"
+      ],
+      [
+        "What is the closest star to Earth?",
+        [
+          "The Sun",
+          "The Moon",
+          "Polaris",
+          "Alpha Centauri"
+        ],
+        "The Sun"
+      ],
+      [
+        "What force pulls objects toward the Earth?",
+        [
+          "Gravity",
+          "Magnetism",
+          "Friction",
+          "Tension"
+        ],
+        "Gravity"
+      ],
+      [
+        "How many planets are in our solar system?",
+        [
+          "Seven",
+          "Eight",
+          "Nine",
+          "Ten"
+        ],
+        "Eight"
+      ],
+      [
+        "What is the fastest land animal?",
+        [
+          "Cheetah",
+          "Lion",
+          "Horse",
+          "Leopard"
+        ],
+        "Cheetah"
+      ],
+      [
+        "What is the largest mammal on Earth?",
+        [
+          "Blue whale",
+          "Elephant",
+          "Giraffe",
+          "Hippopotamus"
+        ],
+        "Blue whale"
+      ],
+      [
+        "Which planet do we live on?",
+        [
+          "Earth",
+          "Mars",
+          "Venus",
+          "Mercury"
+        ],
+        "Earth"
+      ],
+      [
+        "What is the chemical symbol for gold?",
+        [
+          "Au",
+          "Ag",
+          "Gd",
+          "Go"
+        ],
+        "Au"
+      ],
+      [
+        "How many colors are in a rainbow?",
+        [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "Seven"
+      ],
+      [
+        "What do we call animals that eat only plants?",
+        [
+          "Herbivores",
+          "Carnivores",
+          "Omnivores",
+          "Insectivores"
+        ],
+        "Herbivores"
+      ],
+      [
+        "What is the boiling point of water in Celsius?",
+        [
+          "Zero",
+          "Fifty",
+          "One hundred",
+          "Two hundred twelve"
+        ],
+        "One hundred"
+      ],
+      [
+        "Which sense organ do you use to smell?",
+        [
+          "Nose",
+          "Ear",
+          "Eye",
+          "Tongue"
+        ],
+        "Nose"
+      ]
+    ],
+    "normal": [
+      [
+        "What is the chemical symbol for sodium?",
+        [
+          "Na",
+          "So",
+          "Sd",
+          "S"
+        ],
+        "Na"
+      ],
+      [
+        "What is the hardest known natural substance?",
+        [
+          "Diamond",
+          "Gold",
+          "Iron",
+          "Quartz"
+        ],
+        "Diamond"
+      ],
+      [
+        "How many bones are in the adult human body?",
+        [
+          "201",
+          "206",
+          "210",
+          "196"
+        ],
+        "206"
+      ],
+      [
+        "Which gas makes up most of Earth's atmosphere?",
+        [
+          "Nitrogen",
+          "Oxygen",
+          "Carbon dioxide",
+          "Argon"
+        ],
+        "Nitrogen"
+      ],
+      [
+        "The speed of light is approximately how fast?",
+        [
+          "3,000 km/s",
+          "30,000 km/s",
+          "300,000 km/s",
+          "3,000,000 km/s"
+        ],
+        "300,000 km/s"
+      ],
+      [
+        "What is often called the powerhouse of the cell?",
+        [
+          "Mitochondria",
+          "Nucleus",
+          "Ribosome",
+          "Golgi apparatus"
+        ],
+        "Mitochondria"
+      ],
+      [
+        "Which planet has the most prominent ring system?",
+        [
+          "Saturn",
+          "Jupiter",
+          "Uranus",
+          "Neptune"
+        ],
+        "Saturn"
+      ],
+      [
+        "What is the pH of pure water?",
+        [
+          "Zero",
+          "Seven",
+          "Fourteen",
+          "One"
+        ],
+        "Seven"
+      ],
+      [
+        "Which blood cells primarily fight infection?",
+        [
+          "White blood cells",
+          "Red blood cells",
+          "Platelets",
+          "Plasma"
+        ],
+        "White blood cells"
+      ],
+      [
+        "What is the most common element in the universe?",
+        [
+          "Hydrogen",
+          "Helium",
+          "Oxygen",
+          "Carbon"
+        ],
+        "Hydrogen"
+      ],
+      [
+        "What type of energy does a moving object have?",
+        [
+          "Kinetic",
+          "Potential",
+          "Thermal",
+          "Chemical"
+        ],
+        "Kinetic"
+      ],
+      [
+        "Who proposed the theory of evolution by natural selection?",
+        [
+          "Charles Darwin",
+          "Isaac Newton",
+          "Albert Einstein",
+          "Gregor Mendel"
+        ],
+        "Charles Darwin"
+      ],
+      [
+        "What is the chemical formula for common table salt?",
+        [
+          "NaCl",
+          "KCl",
+          "NaCO3",
+          "HCl"
+        ],
+        "NaCl"
+      ],
+      [
+        "How many chambers does the human heart have?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "Four"
+      ],
+      [
+        "What is the smallest basic unit of life?",
+        [
+          "Cell",
+          "Atom",
+          "Molecule",
+          "Organ"
+        ],
+        "Cell"
+      ],
+      [
+        "Which scientist developed the three laws of motion?",
+        [
+          "Isaac Newton",
+          "Galileo Galilei",
+          "Albert Einstein",
+          "Niels Bohr"
+        ],
+        "Isaac Newton"
+      ],
+      [
+        "What is the freezing point of water in Fahrenheit?",
+        [
+          "Zero",
+          "Thirty-two",
+          "One hundred",
+          "Two hundred twelve"
+        ],
+        "Thirty-two"
+      ],
+      [
+        "Which part of the brain controls balance and coordination?",
+        [
+          "Cerebellum",
+          "Cerebrum",
+          "Brainstem",
+          "Hippocampus"
+        ],
+        "Cerebellum"
+      ],
+      [
+        "Which planet is closest to the Sun?",
+        [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Mars"
+        ],
+        "Mercury"
+      ],
+      [
+        "What is the process by which a liquid turns into a gas?",
+        [
+          "Evaporation",
+          "Condensation",
+          "Sublimation",
+          "Freezing"
+        ],
+        "Evaporation"
+      ]
+    ],
+    "hard": [
+      [
+        "What is the most abundant metal in Earth's crust?",
+        [
+          "Aluminium",
+          "Iron",
+          "Copper",
+          "Calcium"
+        ],
+        "Aluminium"
+      ],
+      [
+        "What is the atomic number of carbon?",
+        [
+          "Four",
+          "Six",
+          "Eight",
+          "Twelve"
+        ],
+        "Six"
+      ],
+      [
+        "Who discovered penicillin?",
+        [
+          "Alexander Fleming",
+          "Louis Pasteur",
+          "Joseph Lister",
+          "Robert Koch"
+        ],
+        "Alexander Fleming"
+      ],
+      [
+        "What is the SI unit of electric current?",
+        [
+          "Ampere",
+          "Volt",
+          "Ohm",
+          "Watt"
+        ],
+        "Ampere"
+      ],
+      [
+        "Which metal has the highest melting point of any metal?",
+        [
+          "Tungsten",
+          "Iron",
+          "Platinum",
+          "Titanium"
+        ],
+        "Tungsten"
+      ],
+      [
+        "Who is known as the father of the periodic table?",
+        [
+          "Dmitri Mendeleev",
+          "Niels Bohr",
+          "John Dalton",
+          "Ernest Rutherford"
+        ],
+        "Dmitri Mendeleev"
+      ],
+      [
+        "Which subatomic particle was discovered by J.J. Thomson?",
+        [
+          "Electron",
+          "Proton",
+          "Neutron",
+          "Photon"
+        ],
+        "Electron"
+      ],
+      [
+        "What is the chemical symbol for potassium?",
+        [
+          "K",
+          "P",
+          "Po",
+          "Pt"
+        ],
+        "K"
+      ],
+      [
+        "What is Avogadro's number approximately?",
+        [
+          "6.022 x 10^23",
+          "3.14 x 10^10",
+          "1.6 x 10^-19",
+          "9.81 x 10^8"
+        ],
+        "6.022 x 10^23"
+      ],
+      [
+        "About how many light-years away is the nearest star system, Alpha Centauri?",
+        [
+          "1.5",
+          "4.4",
+          "10",
+          "25"
+        ],
+        "4.4"
+      ]
+    ]
+  },
+  "art": {
+    "easy": [
+      [
+        "Who painted the Mona Lisa?",
+        [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Pablo Picasso",
+          "Vincent van Gogh"
+        ],
+        "Leonardo da Vinci"
+      ],
+      [
+        "What are the three primary colors?",
+        [
+          "Red, yellow, blue",
+          "Red, green, blue",
+          "Orange, purple, green",
+          "Black, white, gray"
+        ],
+        "Red, yellow, blue"
+      ],
+      [
+        "Which artist famously cut off part of his own ear?",
+        [
+          "Vincent van Gogh",
+          "Claude Monet",
+          "Salvador Dali",
+          "Rembrandt"
+        ],
+        "Vincent van Gogh"
+      ],
+      [
+        "In which museum is the Mona Lisa displayed?",
+        [
+          "The Louvre",
+          "The Met",
+          "The Uffizi",
+          "The Prado"
+        ],
+        "The Louvre"
+      ],
+      [
+        "Who painted the ceiling of the Sistine Chapel?",
+        [
+          "Michelangelo",
+          "Leonardo da Vinci",
+          "Raphael",
+          "Donatello"
+        ],
+        "Michelangelo"
+      ],
+      [
+        "Who painted 'The Starry Night'?",
+        [
+          "Vincent van Gogh",
+          "Edvard Munch",
+          "Gustav Klimt",
+          "Paul Cezanne"
+        ],
+        "Vincent van Gogh"
+      ],
+      [
+        "Mixing blue and yellow paint makes which color?",
+        [
+          "Green",
+          "Orange",
+          "Purple",
+          "Brown"
+        ],
+        "Green"
+      ],
+      [
+        "The art of folding paper into shapes is called?",
+        [
+          "Origami",
+          "Calligraphy",
+          "Collage",
+          "Etching"
+        ],
+        "Origami"
+      ],
+      [
+        "A painting of a person is called a?",
+        [
+          "Portrait",
+          "Landscape",
+          "Still life",
+          "Mural"
+        ],
+        "Portrait"
+      ],
+      [
+        "A painting of natural scenery is called a?",
+        [
+          "Landscape",
+          "Portrait",
+          "Abstract",
+          "Mosaic"
+        ],
+        "Landscape"
+      ],
+      [
+        "The art of beautiful, decorative handwriting is called?",
+        [
+          "Calligraphy",
+          "Origami",
+          "Collage",
+          "Etching"
+        ],
+        "Calligraphy"
+      ],
+      [
+        "Shaping stone, clay, or metal into three-dimensional art is called?",
+        [
+          "Sculpture",
+          "Painting",
+          "Sketching",
+          "Printmaking"
+        ],
+        "Sculpture"
+      ],
+      [
+        "Mixing red and white paint makes which color?",
+        [
+          "Pink",
+          "Purple",
+          "Orange",
+          "Brown"
+        ],
+        "Pink"
+      ],
+      [
+        "Red, orange, and yellow are known as what kind of colors?",
+        [
+          "Warm colors",
+          "Cool colors",
+          "Neutral colors",
+          "Primary colors"
+        ],
+        "Warm colors"
+      ],
+      [
+        "Mixing red and yellow paint makes which color?",
+        [
+          "Orange",
+          "Green",
+          "Purple",
+          "Brown"
+        ],
+        "Orange"
+      ],
+      [
+        "Which tool is most associated with painting?",
+        [
+          "Paintbrush",
+          "Chisel",
+          "Hammer",
+          "Pencil"
+        ],
+        "Paintbrush"
+      ],
+      [
+        "Crayons and colored pencils are mainly used for?",
+        [
+          "Drawing",
+          "Welding",
+          "Carving",
+          "Weaving"
+        ],
+        "Drawing"
+      ],
+      [
+        "Which of these is a sculpture rather than a painting?",
+        [
+          "The Thinker",
+          "The Mona Lisa",
+          "The Starry Night",
+          "The Scream"
+        ],
+        "The Thinker"
+      ],
+      [
+        "In which country did the Renaissance begin?",
+        [
+          "Italy",
+          "France",
+          "Spain",
+          "Greece"
+        ],
+        "Italy"
+      ],
+      [
+        "Artwork made by gluing materials like paper and fabric onto a surface is a?",
+        [
+          "Collage",
+          "Fresco",
+          "Etching",
+          "Mosaic"
+        ],
+        "Collage"
+      ]
+    ],
+    "normal": [
+      [
+        "Who painted 'The Persistence of Memory', famous for its melting clocks?",
+        [
+          "Salvador Dali",
+          "Pablo Picasso",
+          "Rene Magritte",
+          "Joan Miro"
+        ],
+        "Salvador Dali"
+      ],
+      [
+        "Who painted 'The Scream'?",
+        [
+          "Edvard Munch",
+          "Gustav Klimt",
+          "Egon Schiele",
+          "Wassily Kandinsky"
+        ],
+        "Edvard Munch"
+      ],
+      [
+        "Pablo Picasso is credited with co-founding which art movement?",
+        [
+          "Cubism",
+          "Surrealism",
+          "Impressionism",
+          "Expressionism"
+        ],
+        "Cubism"
+      ],
+      [
+        "Who painted 'Girl with a Pearl Earring'?",
+        [
+          "Johannes Vermeer",
+          "Rembrandt",
+          "Peter Paul Rubens",
+          "Frans Hals"
+        ],
+        "Johannes Vermeer"
+      ],
+      [
+        "The 'Water Lilies' series was painted by?",
+        [
+          "Claude Monet",
+          "Edouard Manet",
+          "Edgar Degas",
+          "Pierre-Auguste Renoir"
+        ],
+        "Claude Monet"
+      ],
+      [
+        "Which painting medium uses water-soluble pigments?",
+        [
+          "Watercolor",
+          "Oil paint",
+          "Acrylic",
+          "Encaustic"
+        ],
+        "Watercolor"
+      ],
+      [
+        "The Mona Lisa was painted during which period?",
+        [
+          "The Renaissance",
+          "The Baroque",
+          "Romanticism",
+          "Modernism"
+        ],
+        "The Renaissance"
+      ],
+      [
+        "Which artist is famous for paintings of Campbell's soup cans?",
+        [
+          "Andy Warhol",
+          "Roy Lichtenstein",
+          "Jackson Pollock",
+          "Mark Rothko"
+        ],
+        "Andy Warhol"
+      ],
+      [
+        "Which artist is best known for the drip painting technique?",
+        [
+          "Jackson Pollock",
+          "Mark Rothko",
+          "Willem de Kooning",
+          "Barnett Newman"
+        ],
+        "Jackson Pollock"
+      ],
+      [
+        "Who painted 'The Last Supper'?",
+        [
+          "Leonardo da Vinci",
+          "Michelangelo",
+          "Raphael",
+          "Sandro Botticelli"
+        ],
+        "Leonardo da Vinci"
+      ],
+      [
+        "Which movement focused on light and everyday scenes in late-1800s France?",
+        [
+          "Impressionism",
+          "Cubism",
+          "Surrealism",
+          "Baroque"
+        ],
+        "Impressionism"
+      ],
+      [
+        "Who painted 'The Birth of Venus'?",
+        [
+          "Sandro Botticelli",
+          "Titian",
+          "Caravaggio",
+          "Raphael"
+        ],
+        "Sandro Botticelli"
+      ],
+      [
+        "Which Dutch painter created 'The Night Watch' and many self-portraits?",
+        [
+          "Rembrandt",
+          "Johannes Vermeer",
+          "Vincent van Gogh",
+          "Piet Mondrian"
+        ],
+        "Rembrandt"
+      ],
+      [
+        "A painting done on wet plaster is called a?",
+        [
+          "Fresco",
+          "Collage",
+          "Mosaic",
+          "Etching"
+        ],
+        "Fresco"
+      ],
+      [
+        "Which artist painted the anti-war masterpiece 'Guernica'?",
+        [
+          "Pablo Picasso",
+          "Salvador Dali",
+          "Francisco Goya",
+          "Diego Velazquez"
+        ],
+        "Pablo Picasso"
+      ],
+      [
+        "Vincent van Gogh was born in which country?",
+        [
+          "The Netherlands",
+          "France",
+          "Belgium",
+          "Germany"
+        ],
+        "The Netherlands"
+      ],
+      [
+        "The Sistine Chapel is located in?",
+        [
+          "Vatican City",
+          "Florence",
+          "Venice",
+          "Paris"
+        ],
+        "Vatican City"
+      ],
+      [
+        "On the color wheel, which color is the complement of red?",
+        [
+          "Green",
+          "Blue",
+          "Orange",
+          "Purple"
+        ],
+        "Green"
+      ],
+      [
+        "Who painted 'American Gothic', showing a farmer holding a pitchfork?",
+        [
+          "Grant Wood",
+          "Edward Hopper",
+          "Norman Rockwell",
+          "Andrew Wyeth"
+        ],
+        "Grant Wood"
+      ],
+      [
+        "A print made from a design carved into a block of wood is called a?",
+        [
+          "Woodcut",
+          "Lithograph",
+          "Screen print",
+          "Monotype"
+        ],
+        "Woodcut"
+      ]
+    ],
+    "hard": [
+      [
+        "Who painted 'The Garden of Earthly Delights'?",
+        [
+          "Hieronymus Bosch",
+          "Pieter Bruegel",
+          "Albrecht Durer",
+          "Jan van Eyck"
+        ],
+        "Hieronymus Bosch"
+      ],
+      [
+        "Wassily Kandinsky is regarded as a pioneer of which kind of art?",
+        [
+          "Abstract art",
+          "Realism",
+          "Pop art",
+          "Baroque"
+        ],
+        "Abstract art"
+      ],
+      [
+        "Who sculpted 'The Thinker'?",
+        [
+          "Auguste Rodin",
+          "Gian Lorenzo Bernini",
+          "Antonio Canova",
+          "Constantin Brancusi"
+        ],
+        "Auguste Rodin"
+      ],
+      [
+        "Who painted 'Las Meninas'?",
+        [
+          "Diego Velazquez",
+          "Francisco Goya",
+          "El Greco",
+          "Bartolome Murillo"
+        ],
+        "Diego Velazquez"
+      ],
+      [
+        "The Bauhaus art and design school originated in which country?",
+        [
+          "Germany",
+          "France",
+          "Austria",
+          "Switzerland"
+        ],
+        "Germany"
+      ],
+      [
+        "Which artist is associated with the 'Blue Period'?",
+        [
+          "Pablo Picasso",
+          "Henri Matisse",
+          "Paul Cezanne",
+          "Paul Gauguin"
+        ],
+        "Pablo Picasso"
+      ],
+      [
+        "Who is famous for grid compositions using red, yellow, and blue?",
+        [
+          "Piet Mondrian",
+          "Kazimir Malevich",
+          "Paul Klee",
+          "Wassily Kandinsky"
+        ],
+        "Piet Mondrian"
+      ],
+      [
+        "Who painted the 'Arnolfini Portrait'?",
+        [
+          "Jan van Eyck",
+          "Hans Memling",
+          "Hieronymus Bosch",
+          "Pieter Bruegel"
+        ],
+        "Jan van Eyck"
+      ],
+      [
+        "Which Mexican artist is renowned for intense personal self-portraits?",
+        [
+          "Frida Kahlo",
+          "Diego Rivera",
+          "Jose Orozco",
+          "Rufino Tamayo"
+        ],
+        "Frida Kahlo"
+      ],
+      [
+        "In art, the term 'chiaroscuro' refers to?",
+        [
+          "The contrast between light and dark",
+          "The folding of paper",
+          "A theory of color",
+          "A type of brush"
+        ],
+        "The contrast between light and dark"
+      ]
+    ]
+  },
+  "history": {
+    "easy": [
+      [
+        "Who was the first President of the United States?",
+        [
+          "George Washington",
+          "Abraham Lincoln",
+          "Thomas Jefferson",
+          "John Adams"
+        ],
+        "George Washington"
+      ],
+      [
+        "In which year did World War II end?",
+        [
+          "1939",
+          "1942",
+          "1945",
+          "1950"
+        ],
+        "1945"
+      ],
+      [
+        "The Great Pyramids are located in which country?",
+        [
+          "Egypt",
+          "Greece",
+          "Mexico",
+          "Iraq"
+        ],
+        "Egypt"
+      ],
+      [
+        "Who was the British Prime Minister during most of World War II?",
+        [
+          "Winston Churchill",
+          "Neville Chamberlain",
+          "Clement Attlee",
+          "Margaret Thatcher"
+        ],
+        "Winston Churchill"
+      ],
+      [
+        "Which ship famously sank in 1912 after hitting an iceberg?",
+        [
+          "Titanic",
+          "Lusitania",
+          "Britannic",
+          "Bismarck"
+        ],
+        "Titanic"
+      ],
+      [
+        "The ancient Roman Empire was centered on which city?",
+        [
+          "Rome",
+          "Athens",
+          "Cairo",
+          "Istanbul"
+        ],
+        "Rome"
+      ],
+      [
+        "Who is credited with reaching the Americas for Europe in 1492?",
+        [
+          "Christopher Columbus",
+          "Ferdinand Magellan",
+          "Amerigo Vespucci",
+          "James Cook"
+        ],
+        "Christopher Columbus"
+      ],
+      [
+        "In which year did World War I begin?",
+        [
+          "1900",
+          "1914",
+          "1918",
+          "1920"
+        ],
+        "1914"
+      ],
+      [
+        "Which wall divided a German city until 1989?",
+        [
+          "The Berlin Wall",
+          "The Great Wall",
+          "Hadrian's Wall",
+          "The Western Wall"
+        ],
+        "The Berlin Wall"
+      ],
+      [
+        "The U.S. Declaration of Independence was signed in which year?",
+        [
+          "1066",
+          "1776",
+          "1812",
+          "1865"
+        ],
+        "1776"
+      ],
+      [
+        "Who led India's nonviolent independence movement?",
+        [
+          "Mahatma Gandhi",
+          "Jawaharlal Nehru",
+          "Subhas Chandra Bose",
+          "Vallabhbhai Patel"
+        ],
+        "Mahatma Gandhi"
+      ],
+      [
+        "Ancient Egyptians wrote using a script of pictures called?",
+        [
+          "Hieroglyphics",
+          "Cuneiform",
+          "Latin",
+          "Runes"
+        ],
+        "Hieroglyphics"
+      ],
+      [
+        "Which country gifted the Statue of Liberty to the United States?",
+        [
+          "France",
+          "England",
+          "Spain",
+          "Italy"
+        ],
+        "France"
+      ],
+      [
+        "Which U.S. president was assassinated in Dallas in 1963?",
+        [
+          "John F. Kennedy",
+          "Abraham Lincoln",
+          "Martin Luther King Jr.",
+          "Ronald Reagan"
+        ],
+        "John F. Kennedy"
+      ],
+      [
+        "The Cold War was primarily between the USA and which country?",
+        [
+          "The Soviet Union",
+          "China",
+          "Germany",
+          "Japan"
+        ],
+        "The Soviet Union"
+      ],
+      [
+        "Which ancient civilization built the Colosseum?",
+        [
+          "The Romans",
+          "The Greeks",
+          "The Egyptians",
+          "The Persians"
+        ],
+        "The Romans"
+      ],
+      [
+        "Which queen of ancient Egypt was linked with Caesar and Mark Antony?",
+        [
+          "Cleopatra",
+          "Nefertiti",
+          "Hatshepsut",
+          "Isis"
+        ],
+        "Cleopatra"
+      ],
+      [
+        "The Industrial Revolution began in which country?",
+        [
+          "Great Britain",
+          "The USA",
+          "France",
+          "Germany"
+        ],
+        "Great Britain"
+      ],
+      [
+        "Who delivered the 'I Have a Dream' speech?",
+        [
+          "Martin Luther King Jr.",
+          "Malcolm X",
+          "Rosa Parks",
+          "Nelson Mandela"
+        ],
+        "Martin Luther King Jr."
+      ],
+      [
+        "The Vikings came from which region of Europe?",
+        [
+          "Scandinavia",
+          "The Balkans",
+          "Iberia",
+          "The British Isles"
+        ],
+        "Scandinavia"
+      ]
+    ],
+    "normal": [
+      [
+        "Who was the first person to walk on the Moon?",
+        [
+          "Neil Armstrong",
+          "Buzz Aldrin",
+          "Yuri Gagarin",
+          "Michael Collins"
+        ],
+        "Neil Armstrong"
+      ],
+      [
+        "Which empire was ruled by Genghis Khan?",
+        [
+          "The Mongol Empire",
+          "The Ottoman Empire",
+          "The Roman Empire",
+          "The Persian Empire"
+        ],
+        "The Mongol Empire"
+      ],
+      [
+        "In which year did the French Revolution begin?",
+        [
+          "1776",
+          "1789",
+          "1804",
+          "1815"
+        ],
+        "1789"
+      ],
+      [
+        "Who was the leader of Nazi Germany?",
+        [
+          "Adolf Hitler",
+          "Benito Mussolini",
+          "Joseph Stalin",
+          "Francisco Franco"
+        ],
+        "Adolf Hitler"
+      ],
+      [
+        "The Magna Carta was signed in which country?",
+        [
+          "England",
+          "France",
+          "Germany",
+          "Italy"
+        ],
+        "England"
+      ],
+      [
+        "Which civilization built Machu Picchu?",
+        [
+          "The Inca",
+          "The Aztec",
+          "The Maya",
+          "The Olmec"
+        ],
+        "The Inca"
+      ],
+      [
+        "Who was the first Emperor of Rome?",
+        [
+          "Augustus",
+          "Julius Caesar",
+          "Nero",
+          "Constantine"
+        ],
+        "Augustus"
+      ],
+      [
+        "The Hundred Years' War was fought mainly between England and which country?",
+        [
+          "France",
+          "Spain",
+          "Germany",
+          "Scotland"
+        ],
+        "France"
+      ],
+      [
+        "Which U.S. president issued the Emancipation Proclamation?",
+        [
+          "Abraham Lincoln",
+          "George Washington",
+          "Ulysses S. Grant",
+          "Thomas Jefferson"
+        ],
+        "Abraham Lincoln"
+      ],
+      [
+        "Pearl Harbor was attacked by which country in 1941?",
+        [
+          "Japan",
+          "Germany",
+          "Italy",
+          "China"
+        ],
+        "Japan"
+      ],
+      [
+        "The Renaissance began in which country?",
+        [
+          "Italy",
+          "France",
+          "England",
+          "Greece"
+        ],
+        "Italy"
+      ],
+      [
+        "Which woman ruled ancient Egypt as a pharaoh and king?",
+        [
+          "Hatshepsut",
+          "Cleopatra",
+          "Nefertiti",
+          "Nefertari"
+        ],
+        "Hatshepsut"
+      ],
+      [
+        "The Ottoman Empire was centered in which modern-day country?",
+        [
+          "Turkey",
+          "Greece",
+          "Egypt",
+          "Iran"
+        ],
+        "Turkey"
+      ],
+      [
+        "Which war was fought between the North and South of the United States?",
+        [
+          "The Civil War",
+          "The Revolutionary War",
+          "The War of 1812",
+          "The Mexican War"
+        ],
+        "The Civil War"
+      ],
+      [
+        "Which explorer led the first expedition to circumnavigate the globe?",
+        [
+          "Ferdinand Magellan",
+          "Christopher Columbus",
+          "Vasco da Gama",
+          "Francis Drake"
+        ],
+        "Ferdinand Magellan"
+      ],
+      [
+        "The Black Death of the 14th century was a pandemic of which disease?",
+        [
+          "The plague",
+          "Smallpox",
+          "Cholera",
+          "Influenza"
+        ],
+        "The plague"
+      ],
+      [
+        "Which country was ruled by Louis XIV, the 'Sun King'?",
+        [
+          "France",
+          "Spain",
+          "England",
+          "Austria"
+        ],
+        "France"
+      ],
+      [
+        "The ancient Olympic Games originated in which country?",
+        [
+          "Greece",
+          "Italy",
+          "Egypt",
+          "Turkey"
+        ],
+        "Greece"
+      ],
+      [
+        "Who was the Soviet leader during the Cuban Missile Crisis?",
+        [
+          "Nikita Khrushchev",
+          "Joseph Stalin",
+          "Leonid Brezhnev",
+          "Vladimir Lenin"
+        ],
+        "Nikita Khrushchev"
+      ],
+      [
+        "In which year did the Berlin Wall fall?",
+        [
+          "1985",
+          "1989",
+          "1991",
+          "1993"
+        ],
+        "1989"
+      ]
+    ],
+    "hard": [
+      [
+        "Who was crowned the first Holy Roman Emperor in 800 AD?",
+        [
+          "Charlemagne",
+          "Otto I",
+          "Frederick Barbarossa",
+          "Constantine"
+        ],
+        "Charlemagne"
+      ],
+      [
+        "The Treaty of Versailles was signed in which year?",
+        [
+          "1918",
+          "1919",
+          "1920",
+          "1921"
+        ],
+        "1919"
+      ],
+      [
+        "Which ancient wonder stood in the harbor of Alexandria?",
+        [
+          "The Lighthouse of Alexandria",
+          "The Colossus of Rhodes",
+          "The Hanging Gardens",
+          "The Temple of Artemis"
+        ],
+        "The Lighthouse of Alexandria"
+      ],
+      [
+        "Who was the last Tsar of Russia?",
+        [
+          "Nicholas II",
+          "Alexander III",
+          "Peter the Great",
+          "Ivan IV"
+        ],
+        "Nicholas II"
+      ],
+      [
+        "The Battle of Hastings took place in which year?",
+        [
+          "1066",
+          "1215",
+          "1314",
+          "1485"
+        ],
+        "1066"
+      ],
+      [
+        "Which dynasty built most of the Great Wall of China as it appears today?",
+        [
+          "The Ming",
+          "The Qing",
+          "The Han",
+          "The Tang"
+        ],
+        "The Ming"
+      ],
+      [
+        "Hannibal crossed the Alps with elephants to attack which empire?",
+        [
+          "Rome",
+          "Greece",
+          "Egypt",
+          "Persia"
+        ],
+        "Rome"
+      ],
+      [
+        "The Peloponnesian War was fought between Athens and which city-state?",
+        [
+          "Sparta",
+          "Thebes",
+          "Corinth",
+          "Troy"
+        ],
+        "Sparta"
+      ],
+      [
+        "Which Byzantine emperor codified Roman law in the Corpus Juris Civilis?",
+        [
+          "Justinian I",
+          "Constantine",
+          "Heraclius",
+          "Basil II"
+        ],
+        "Justinian I"
+      ],
+      [
+        "In which year did the Russian October Revolution occur?",
+        [
+          "1905",
+          "1917",
+          "1922",
+          "1924"
+        ],
+        "1917"
+      ]
+    ]
+  },
+  "geography": {
+    "easy": [
+      [
+        "What is the capital of France?",
+        [
+          "Paris",
+          "London",
+          "Berlin",
+          "Madrid"
+        ],
+        "Paris"
+      ],
+      [
+        "Which is the largest ocean on Earth?",
+        [
+          "Pacific",
+          "Atlantic",
+          "Indian",
+          "Arctic"
+        ],
+        "Pacific"
+      ],
+      [
+        "What is the capital of Japan?",
+        [
+          "Tokyo",
+          "Beijing",
+          "Seoul",
+          "Bangkok"
+        ],
+        "Tokyo"
+      ],
+      [
+        "The Sahara Desert is located on which continent?",
+        [
+          "Africa",
+          "Asia",
+          "Australia",
+          "South America"
+        ],
+        "Africa"
+      ],
+      [
+        "What is the capital of Italy?",
+        [
+          "Rome",
+          "Milan",
+          "Venice",
+          "Naples"
+        ],
+        "Rome"
+      ],
+      [
+        "Which country is shaped like a boot?",
+        [
+          "Italy",
+          "Spain",
+          "Greece",
+          "Portugal"
+        ],
+        "Italy"
+      ],
+      [
+        "What is the capital of England?",
+        [
+          "London",
+          "Manchester",
+          "Liverpool",
+          "Birmingham"
+        ],
+        "London"
+      ],
+      [
+        "Mount Everest is located in which mountain range?",
+        [
+          "The Himalayas",
+          "The Andes",
+          "The Alps",
+          "The Rockies"
+        ],
+        "The Himalayas"
+      ],
+      [
+        "On which continent do kangaroos naturally live?",
+        [
+          "Australia",
+          "Africa",
+          "Asia",
+          "Europe"
+        ],
+        "Australia"
+      ],
+      [
+        "What is the capital of the United States?",
+        [
+          "Washington, D.C.",
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "Washington, D.C."
+      ],
+      [
+        "Which is the largest country in the world by area?",
+        [
+          "Russia",
+          "Canada",
+          "China",
+          "USA"
+        ],
+        "Russia"
+      ],
+      [
+        "What is the capital of Spain?",
+        [
+          "Madrid",
+          "Barcelona",
+          "Seville",
+          "Valencia"
+        ],
+        "Madrid"
+      ],
+      [
+        "The Great Barrier Reef is off the coast of which country?",
+        [
+          "Australia",
+          "Brazil",
+          "Mexico",
+          "Indonesia"
+        ],
+        "Australia"
+      ],
+      [
+        "Egypt is located mostly on which continent?",
+        [
+          "Africa",
+          "Asia",
+          "Europe",
+          "South America"
+        ],
+        "Africa"
+      ],
+      [
+        "What is the capital of Germany?",
+        [
+          "Berlin",
+          "Munich",
+          "Hamburg",
+          "Frankfurt"
+        ],
+        "Berlin"
+      ],
+      [
+        "Which ocean is on the west coast of the United States?",
+        [
+          "Pacific",
+          "Atlantic",
+          "Indian",
+          "Arctic"
+        ],
+        "Pacific"
+      ],
+      [
+        "How many continents are there on Earth?",
+        [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "Seven"
+      ],
+      [
+        "What is the capital of Canada?",
+        [
+          "Ottawa",
+          "Toronto",
+          "Vancouver",
+          "Montreal"
+        ],
+        "Ottawa"
+      ],
+      [
+        "The Eiffel Tower is located in which country?",
+        [
+          "France",
+          "Italy",
+          "England",
+          "Belgium"
+        ],
+        "France"
+      ],
+      [
+        "Which is the largest hot desert in the world?",
+        [
+          "The Sahara",
+          "The Gobi",
+          "The Kalahari",
+          "The Arabian"
+        ],
+        "The Sahara"
+      ]
+    ],
+    "normal": [
+      [
+        "What is the capital of Australia?",
+        [
+          "Canberra",
+          "Sydney",
+          "Melbourne",
+          "Perth"
+        ],
+        "Canberra"
+      ],
+      [
+        "Which river runs through Paris?",
+        [
+          "The Seine",
+          "The Thames",
+          "The Rhine",
+          "The Danube"
+        ],
+        "The Seine"
+      ],
+      [
+        "What is the capital of Brazil?",
+        [
+          "Brasilia",
+          "Rio de Janeiro",
+          "Sao Paulo",
+          "Salvador"
+        ],
+        "Brasilia"
+      ],
+      [
+        "Mount Kilimanjaro is located in which country?",
+        [
+          "Tanzania",
+          "Kenya",
+          "Ethiopia",
+          "Uganda"
+        ],
+        "Tanzania"
+      ],
+      [
+        "Which is currently the most populous country in the world?",
+        [
+          "India",
+          "China",
+          "USA",
+          "Indonesia"
+        ],
+        "India"
+      ],
+      [
+        "The Amazon rainforest is primarily located in which country?",
+        [
+          "Brazil",
+          "Peru",
+          "Colombia",
+          "Venezuela"
+        ],
+        "Brazil"
+      ],
+      [
+        "What is the capital of Russia?",
+        [
+          "Moscow",
+          "Saint Petersburg",
+          "Kyiv",
+          "Minsk"
+        ],
+        "Moscow"
+      ],
+      [
+        "Which mountain range is traditionally used to separate Europe and Asia?",
+        [
+          "The Urals",
+          "The Alps",
+          "The Caucasus",
+          "The Carpathians"
+        ],
+        "The Urals"
+      ],
+      [
+        "What is the capital of Egypt?",
+        [
+          "Cairo",
+          "Alexandria",
+          "Giza",
+          "Luxor"
+        ],
+        "Cairo"
+      ],
+      [
+        "Which strait separates Europe from Africa near Gibraltar?",
+        [
+          "The Strait of Gibraltar",
+          "The Bosphorus",
+          "The Strait of Hormuz",
+          "The Strait of Malacca"
+        ],
+        "The Strait of Gibraltar"
+      ],
+      [
+        "What is the capital of China?",
+        [
+          "Beijing",
+          "Shanghai",
+          "Hong Kong",
+          "Guangzhou"
+        ],
+        "Beijing"
+      ],
+      [
+        "Which is the smallest country in the world?",
+        [
+          "Vatican City",
+          "Monaco",
+          "San Marino",
+          "Liechtenstein"
+        ],
+        "Vatican City"
+      ],
+      [
+        "Which country has a major city split between Europe and Asia by the Bosphorus?",
+        [
+          "Turkey",
+          "Russia",
+          "Greece",
+          "Egypt"
+        ],
+        "Turkey"
+      ],
+      [
+        "What is the capital of India?",
+        [
+          "New Delhi",
+          "Mumbai",
+          "Kolkata",
+          "Bangalore"
+        ],
+        "New Delhi"
+      ],
+      [
+        "Which sea lies between Europe and Africa?",
+        [
+          "The Mediterranean",
+          "The Red Sea",
+          "The Black Sea",
+          "The Caspian Sea"
+        ],
+        "The Mediterranean"
+      ],
+      [
+        "The Andes mountains run along which continent?",
+        [
+          "South America",
+          "Africa",
+          "Asia",
+          "North America"
+        ],
+        "South America"
+      ],
+      [
+        "What is the capital of South Korea?",
+        [
+          "Seoul",
+          "Busan",
+          "Incheon",
+          "Pyongyang"
+        ],
+        "Seoul"
+      ],
+      [
+        "Which African country is commonly cited as never having been colonized?",
+        [
+          "Ethiopia",
+          "Kenya",
+          "Ghana",
+          "Nigeria"
+        ],
+        "Ethiopia"
+      ],
+      [
+        "Lake Baikal, the world's deepest lake, is located in which country?",
+        [
+          "Russia",
+          "Mongolia",
+          "China",
+          "Kazakhstan"
+        ],
+        "Russia"
+      ],
+      [
+        "What is the capital of Argentina?",
+        [
+          "Buenos Aires",
+          "Santiago",
+          "Lima",
+          "Montevideo"
+        ],
+        "Buenos Aires"
+      ]
+    ],
+    "hard": [
+      [
+        "What is the capital of Kazakhstan?",
+        [
+          "Astana",
+          "Almaty",
+          "Tashkent",
+          "Bishkek"
+        ],
+        "Astana"
+      ],
+      [
+        "Counting its overseas territories, which country has the most time zones?",
+        [
+          "France",
+          "Russia",
+          "USA",
+          "China"
+        ],
+        "France"
+      ],
+      [
+        "The Atacama, the driest non-polar desert, is in which country?",
+        [
+          "Chile",
+          "Peru",
+          "Bolivia",
+          "Argentina"
+        ],
+        "Chile"
+      ],
+      [
+        "Which is the largest island in the world?",
+        [
+          "Greenland",
+          "New Guinea",
+          "Borneo",
+          "Madagascar"
+        ],
+        "Greenland"
+      ],
+      [
+        "The Strait of Hormuz connects the Persian Gulf to which body of water?",
+        [
+          "The Gulf of Oman",
+          "The Red Sea",
+          "The Black Sea",
+          "The Caspian Sea"
+        ],
+        "The Gulf of Oman"
+      ],
+      [
+        "What is the capital of Mongolia?",
+        [
+          "Ulaanbaatar",
+          "Astana",
+          "Bishkek",
+          "Tashkent"
+        ],
+        "Ulaanbaatar"
+      ],
+      [
+        "Aconcagua, the highest peak in the Americas, is located in which country?",
+        [
+          "Argentina",
+          "Chile",
+          "Peru",
+          "Bolivia"
+        ],
+        "Argentina"
+      ],
+      [
+        "The Mariana Trench, the deepest ocean trench, is in which ocean?",
+        [
+          "The Pacific",
+          "The Atlantic",
+          "The Indian",
+          "The Southern"
+        ],
+        "The Pacific"
+      ],
+      [
+        "What is the capital of New Zealand?",
+        [
+          "Wellington",
+          "Auckland",
+          "Christchurch",
+          "Hamilton"
+        ],
+        "Wellington"
+      ],
+      [
+        "Which country has the longest coastline in the world?",
+        [
+          "Canada",
+          "Russia",
+          "Indonesia",
+          "Australia"
+        ],
+        "Canada"
+      ]
+    ]
+  },
+  "sports": {
+    "easy": [
+      [
+        "How many players from each team are on the field in soccer?",
+        [
+          "Nine",
+          "Ten",
+          "Eleven",
+          "Twelve"
+        ],
+        "Eleven"
+      ],
+      [
+        "In which sport do you score a 'touchdown'?",
+        [
+          "American football",
+          "Basketball",
+          "Baseball",
+          "Hockey"
+        ],
+        "American football"
+      ],
+      [
+        "How many rings are on the Olympic flag?",
+        [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "Five"
+      ],
+      [
+        "In tennis, what is a score of zero called?",
+        [
+          "Love",
+          "Nil",
+          "Duck",
+          "Zip"
+        ],
+        "Love"
+      ],
+      [
+        "Which sport features a 'slam dunk'?",
+        [
+          "Basketball",
+          "Volleyball",
+          "Tennis",
+          "Golf"
+        ],
+        "Basketball"
+      ],
+      [
+        "How many players from each team are on a basketball court?",
+        [
+          "Four",
+          "Five",
+          "Six",
+          "Seven"
+        ],
+        "Five"
+      ],
+      [
+        "Which sport uses a racket and a shuttlecock?",
+        [
+          "Badminton",
+          "Tennis",
+          "Squash",
+          "Table tennis"
+        ],
+        "Badminton"
+      ],
+      [
+        "In golf, what is one stroke under par on a hole called?",
+        [
+          "Birdie",
+          "Eagle",
+          "Bogey",
+          "Par"
+        ],
+        "Birdie"
+      ],
+      [
+        "How many points is a touchdown worth before the extra point?",
+        [
+          "Three",
+          "Six",
+          "Seven",
+          "Two"
+        ],
+        "Six"
+      ],
+      [
+        "Which sport is played at Wimbledon?",
+        [
+          "Tennis",
+          "Golf",
+          "Cricket",
+          "Rugby"
+        ],
+        "Tennis"
+      ],
+      [
+        "What is it called when a soccer player scores three goals in a match?",
+        [
+          "Hat-trick",
+          "Triple",
+          "Treble play",
+          "Strike"
+        ],
+        "Hat-trick"
+      ],
+      [
+        "What piece of equipment do you hit a baseball with?",
+        [
+          "A bat",
+          "A racket",
+          "A club",
+          "A stick"
+        ],
+        "A bat"
+      ],
+      [
+        "How often are the Summer Olympic Games held?",
+        [
+          "Every two years",
+          "Every three years",
+          "Every four years",
+          "Every five years"
+        ],
+        "Every four years"
+      ],
+      [
+        "Which sport involves a pommel horse and still rings?",
+        [
+          "Gymnastics",
+          "Wrestling",
+          "Boxing",
+          "Fencing"
+        ],
+        "Gymnastics"
+      ],
+      [
+        "Which sport uses a stick and a puck on ice?",
+        [
+          "Ice hockey",
+          "Field hockey",
+          "Lacrosse",
+          "Curling"
+        ],
+        "Ice hockey"
+      ],
+      [
+        "How many holes are played in a full round of golf?",
+        [
+          "Nine",
+          "Twelve",
+          "Eighteen",
+          "Twenty-four"
+        ],
+        "Eighteen"
+      ],
+      [
+        "Usain Bolt is famous for which sport?",
+        [
+          "Sprinting",
+          "Swimming",
+          "Cycling",
+          "Boxing"
+        ],
+        "Sprinting"
+      ],
+      [
+        "Which sport uses the terms 'serve', 'ace', and 'deuce'?",
+        [
+          "Tennis",
+          "Soccer",
+          "Cricket",
+          "Golf"
+        ],
+        "Tennis"
+      ],
+      [
+        "In boxing, what does 'KO' stand for?",
+        [
+          "Knockout",
+          "Kick-off",
+          "Key-out",
+          "Knock-over"
+        ],
+        "Knockout"
+      ],
+      [
+        "Which sport is associated with the Tour de France?",
+        [
+          "Cycling",
+          "Running",
+          "Sailing",
+          "Skiing"
+        ],
+        "Cycling"
+      ]
+    ],
+    "normal": [
+      [
+        "How many players are on a cricket team?",
+        [
+          "Nine",
+          "Ten",
+          "Eleven",
+          "Twelve"
+        ],
+        "Eleven"
+      ],
+      [
+        "In which country were the first modern Olympic Games held in 1896?",
+        [
+          "Greece",
+          "France",
+          "England",
+          "Italy"
+        ],
+        "Greece"
+      ],
+      [
+        "Which country has won the most men's FIFA World Cup titles?",
+        [
+          "Brazil",
+          "Germany",
+          "Italy",
+          "Argentina"
+        ],
+        "Brazil"
+      ],
+      [
+        "In basketball, how many points is a shot from beyond the arc worth?",
+        [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "Three"
+      ],
+      [
+        "Which tennis Grand Slam is played on clay courts?",
+        [
+          "The French Open",
+          "Wimbledon",
+          "The US Open",
+          "The Australian Open"
+        ],
+        "The French Open"
+      ],
+      [
+        "A marathon is approximately how long?",
+        [
+          "21 km",
+          "42 km",
+          "50 km",
+          "100 km"
+        ],
+        "42 km"
+      ],
+      [
+        "In which sport is the Stanley Cup awarded?",
+        [
+          "Ice hockey",
+          "Basketball",
+          "Baseball",
+          "Soccer"
+        ],
+        "Ice hockey"
+      ],
+      [
+        "How many players from each team are on a volleyball court?",
+        [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "Six"
+      ],
+      [
+        "The Ryder Cup is contested in which sport?",
+        [
+          "Golf",
+          "Tennis",
+          "Sailing",
+          "Cricket"
+        ],
+        "Golf"
+      ],
+      [
+        "The Super Bowl is the championship game of which sport?",
+        [
+          "American football",
+          "Baseball",
+          "Basketball",
+          "Hockey"
+        ],
+        "American football"
+      ],
+      [
+        "Which boxer was known as 'The Greatest'?",
+        [
+          "Muhammad Ali",
+          "Mike Tyson",
+          "Joe Frazier",
+          "George Foreman"
+        ],
+        "Muhammad Ali"
+      ],
+      [
+        "In Formula 1, which flag signals the end of a race?",
+        [
+          "The chequered flag",
+          "The yellow flag",
+          "The red flag",
+          "The green flag"
+        ],
+        "The chequered flag"
+      ],
+      [
+        "How many tennis Grand Slam tournaments are held each year?",
+        [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "Four"
+      ],
+      [
+        "The Wimbledon tennis tournament is hosted in which country?",
+        [
+          "England",
+          "USA",
+          "Australia",
+          "France"
+        ],
+        "England"
+      ],
+      [
+        "In baseball, how many strikes make an out?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "Three"
+      ],
+      [
+        "The terms 'birdie' and 'bogey' are used in which sport?",
+        [
+          "Golf",
+          "Tennis",
+          "Bowling",
+          "Darts"
+        ],
+        "Golf"
+      ],
+      [
+        "The FIFA World Cup is held every how many years?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "Four"
+      ],
+      [
+        "In which sport would you score a 'try'?",
+        [
+          "Rugby",
+          "Soccer",
+          "Hockey",
+          "Cricket"
+        ],
+        "Rugby"
+      ],
+      [
+        "The NBA is a professional league for which sport?",
+        [
+          "Basketball",
+          "Baseball",
+          "American football",
+          "Hockey"
+        ],
+        "Basketball"
+      ],
+      [
+        "What color jersey does the overall leader of the Tour de France wear?",
+        [
+          "Yellow",
+          "Green",
+          "Polka dot",
+          "White"
+        ],
+        "Yellow"
+      ]
+    ],
+    "hard": [
+      [
+        "Which country won the first ever FIFA World Cup in 1930?",
+        [
+          "Uruguay",
+          "Brazil",
+          "Italy",
+          "Argentina"
+        ],
+        "Uruguay"
+      ],
+      [
+        "In golf, what term describes two strokes under par on a hole?",
+        [
+          "Eagle",
+          "Birdie",
+          "Albatross",
+          "Bogey"
+        ],
+        "Eagle"
+      ],
+      [
+        "What is the highest possible break in snooker without fouls?",
+        [
+          "100",
+          "147",
+          "155",
+          "180"
+        ],
+        "147"
+      ],
+      [
+        "Which city hosted the first modern Summer Olympics in 1896?",
+        [
+          "Athens",
+          "Paris",
+          "London",
+          "Rome"
+        ],
+        "Athens"
+      ],
+      [
+        "In ten-pin bowling, what is the term for three strikes in a row?",
+        [
+          "A turkey",
+          "An eagle",
+          "A hat-trick",
+          "A triple"
+        ],
+        "A turkey"
+      ],
+      [
+        "The Ashes cricket series is contested between England and which country?",
+        [
+          "Australia",
+          "India",
+          "South Africa",
+          "New Zealand"
+        ],
+        "Australia"
+      ],
+      [
+        "What is the maximum checkout score with three darts in a single turn?",
+        [
+          "150",
+          "167",
+          "170",
+          "180"
+        ],
+        "170"
+      ],
+      [
+        "How many players are on the field for one team in rugby union?",
+        [
+          "Eleven",
+          "Thirteen",
+          "Fifteen",
+          "Eighteen"
+        ],
+        "Fifteen"
+      ],
+      [
+        "In which sport is the Davis Cup awarded?",
+        [
+          "Tennis",
+          "Golf",
+          "Rowing",
+          "Cycling"
+        ],
+        "Tennis"
+      ],
+      [
+        "The 'Fosbury Flop' is a technique used in which athletics event?",
+        [
+          "High jump",
+          "Long jump",
+          "Pole vault",
+          "Javelin"
+        ],
+        "High jump"
+      ]
+    ]
+  },
+  "general_knowledge": {
+    "easy": [
+      [
+        "How many days are in a week?",
+        [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "Seven"
+      ],
+      [
+        "What is the opposite of 'hot'?",
+        [
+          "Cold",
+          "Warm",
+          "Cool",
+          "Mild"
+        ],
+        "Cold"
+      ],
+      [
+        "How many minutes are in an hour?",
+        [
+          "Thirty",
+          "Forty-five",
+          "Sixty",
+          "Ninety"
+        ],
+        "Sixty"
+      ],
+      [
+        "What color is the sky on a clear day?",
+        [
+          "Blue",
+          "Green",
+          "Red",
+          "Yellow"
+        ],
+        "Blue"
+      ],
+      [
+        "How many months are in a year?",
+        [
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Thirteen"
+        ],
+        "Twelve"
+      ],
+      [
+        "What do cows produce that people drink?",
+        [
+          "Milk",
+          "Juice",
+          "Water",
+          "Honey"
+        ],
+        "Milk"
+      ],
+      [
+        "Which animal says 'moo'?",
+        [
+          "Cow",
+          "Dog",
+          "Cat",
+          "Sheep"
+        ],
+        "Cow"
+      ],
+      [
+        "How many sides does a triangle have?",
+        [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "Three"
+      ],
+      [
+        "What is the first month of the year?",
+        [
+          "January",
+          "December",
+          "March",
+          "June"
+        ],
+        "January"
+      ],
+      [
+        "How many wheels does a standard car have?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "Four"
+      ],
+      [
+        "What do you call a baby dog?",
+        [
+          "Puppy",
+          "Kitten",
+          "Cub",
+          "Calf"
+        ],
+        "Puppy"
+      ],
+      [
+        "Which meal do people typically eat in the morning?",
+        [
+          "Breakfast",
+          "Lunch",
+          "Dinner",
+          "Supper"
+        ],
+        "Breakfast"
+      ],
+      [
+        "What shape has four equal sides?",
+        [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "Square"
+      ],
+      [
+        "How many letters are in the English alphabet?",
+        [
+          "Twenty-four",
+          "Twenty-five",
+          "Twenty-six",
+          "Twenty-seven"
+        ],
+        "Twenty-six"
+      ],
+      [
+        "What color are bananas when they are ripe?",
+        [
+          "Yellow",
+          "Blue",
+          "Purple",
+          "Black"
+        ],
+        "Yellow"
+      ],
+      [
+        "What do you call a baby cat?",
+        [
+          "Kitten",
+          "Puppy",
+          "Cub",
+          "Foal"
+        ],
+        "Kitten"
+      ],
+      [
+        "How many days are in a typical, non-leap year?",
+        [
+          "360",
+          "364",
+          "365",
+          "366"
+        ],
+        "365"
+      ],
+      [
+        "What is H2O more commonly known as?",
+        [
+          "Water",
+          "Salt",
+          "Air",
+          "Oil"
+        ],
+        "Water"
+      ],
+      [
+        "Which is longer: a kilometer or a meter?",
+        [
+          "A kilometer",
+          "A meter",
+          "They are equal",
+          "A centimeter"
+        ],
+        "A kilometer"
+      ],
+      [
+        "Which utensil is used to eat soup?",
+        [
+          "Spoon",
+          "Fork",
+          "Knife",
+          "Chopsticks"
+        ],
+        "Spoon"
+      ]
+    ],
+    "normal": [
+      [
+        "How many legs does a spider have?",
+        [
+          "Six",
+          "Eight",
+          "Ten",
+          "Twelve"
+        ],
+        "Eight"
+      ],
+      [
+        "Which language has the most native speakers in the world?",
+        [
+          "Mandarin Chinese",
+          "English",
+          "Spanish",
+          "Hindi"
+        ],
+        "Mandarin Chinese"
+      ],
+      [
+        "How many strings does a standard guitar have?",
+        [
+          "Four",
+          "Five",
+          "Six",
+          "Seven"
+        ],
+        "Six"
+      ],
+      [
+        "What is the currency of Japan?",
+        [
+          "Yen",
+          "Won",
+          "Yuan",
+          "Ringgit"
+        ],
+        "Yen"
+      ],
+      [
+        "How many degrees are in a right angle?",
+        [
+          "Forty-five",
+          "Sixty",
+          "Ninety",
+          "One hundred eighty"
+        ],
+        "Ninety"
+      ],
+      [
+        "Who wrote the play 'Romeo and Juliet'?",
+        [
+          "William Shakespeare",
+          "Charles Dickens",
+          "Jane Austen",
+          "Leo Tolstoy"
+        ],
+        "William Shakespeare"
+      ],
+      [
+        "What is the currency used across most of the European Union?",
+        [
+          "The Euro",
+          "The Pound",
+          "The Dollar",
+          "The Franc"
+        ],
+        "The Euro"
+      ],
+      [
+        "How many sides does a hexagon have?",
+        [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "Six"
+      ],
+      [
+        "What is the tallest animal in the world?",
+        [
+          "Giraffe",
+          "Elephant",
+          "Horse",
+          "Camel"
+        ],
+        "Giraffe"
+      ],
+      [
+        "Including the repeated note, how many notes are in a do-re-mi octave?",
+        [
+          "Five",
+          "Seven",
+          "Eight",
+          "Twelve"
+        ],
+        "Eight"
+      ],
+      [
+        "What is the currency of the United Kingdom?",
+        [
+          "Pound sterling",
+          "Euro",
+          "Dollar",
+          "Krona"
+        ],
+        "Pound sterling"
+      ],
+      [
+        "Who is the author of the 'Harry Potter' book series?",
+        [
+          "J.K. Rowling",
+          "J.R.R. Tolkien",
+          "C.S. Lewis",
+          "Roald Dahl"
+        ],
+        "J.K. Rowling"
+      ],
+      [
+        "How many players (sides) are there in a game of chess?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Six"
+        ],
+        "Two"
+      ],
+      [
+        "What is the largest organ of the human body?",
+        [
+          "The skin",
+          "The liver",
+          "The brain",
+          "The heart"
+        ],
+        "The skin"
+      ],
+      [
+        "How many colors are on a standard traffic light?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "Three"
+      ],
+      [
+        "What is the official language of France?",
+        [
+          "French",
+          "English",
+          "German",
+          "Italian"
+        ],
+        "French"
+      ],
+      [
+        "The Roman numeral 'X' represents which number?",
+        [
+          "Five",
+          "Nine",
+          "Ten",
+          "Fifty"
+        ],
+        "Ten"
+      ],
+      [
+        "How many zeros are in the number one thousand?",
+        [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "Three"
+      ],
+      [
+        "A word that means the same as another word is called a?",
+        [
+          "Synonym",
+          "Antonym",
+          "Homonym",
+          "Acronym"
+        ],
+        "Synonym"
+      ],
+      [
+        "How many hours are in two full days?",
+        [
+          "Twenty-four",
+          "Thirty-six",
+          "Forty-eight",
+          "Sixty"
+        ],
+        "Forty-eight"
+      ]
+    ],
+    "hard": [
+      [
+        "What is the Roman numeral for fifty?",
+        [
+          "L",
+          "C",
+          "D",
+          "M"
+        ],
+        "L"
+      ],
+      [
+        "Who wrote the novel 'War and Peace'?",
+        [
+          "Leo Tolstoy",
+          "Fyodor Dostoevsky",
+          "Anton Chekhov",
+          "Alexander Pushkin"
+        ],
+        "Leo Tolstoy"
+      ],
+      [
+        "What is the currency of South Korea?",
+        [
+          "Won",
+          "Yen",
+          "Yuan",
+          "Baht"
+        ],
+        "Won"
+      ],
+      [
+        "How many sides does a dodecagon have?",
+        [
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Fourteen"
+        ],
+        "Twelve"
+      ],
+      [
+        "In what year did humans first land on the Moon?",
+        [
+          "1959",
+          "1965",
+          "1969",
+          "1972"
+        ],
+        "1969"
+      ],
+      [
+        "What is the SI base unit of mass?",
+        [
+          "Kilogram",
+          "Gram",
+          "Newton",
+          "Pound"
+        ],
+        "Kilogram"
+      ],
+      [
+        "Which of these languages is written using the Cyrillic script?",
+        [
+          "Russian",
+          "French",
+          "Greek",
+          "Arabic"
+        ],
+        "Russian"
+      ],
+      [
+        "Who composed the Ninth Symphony featuring the 'Ode to Joy'?",
+        [
+          "Ludwig van Beethoven",
+          "Wolfgang Mozart",
+          "Johann Bach",
+          "Frederic Chopin"
+        ],
+        "Ludwig van Beethoven"
+      ],
+      [
+        "What is the smallest prime number?",
+        [
+          "Zero",
+          "One",
+          "Two",
+          "Three"
+        ],
+        "Two"
+      ],
+      [
+        "In a web address, what does 'www' stand for?",
+        [
+          "World Wide Web",
+          "World Web Wide",
+          "Wide World Web",
+          "Web World Wide"
+        ],
+        "World Wide Web"
+      ]
+    ]
+  }
+}

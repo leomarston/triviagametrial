@@ -26,7 +26,8 @@ in `localStorage`.
 index.html              single-page shell, all five screens
 styles/                 base tokens + per-screen CSS
 scripts/
-  questions.js          six categories, fact-checked question bank
+  questions.js          generated bank (300 Qs · 6 categories · easy/normal/hard)
+  ../assets/data/questions_source.json   source of truth for the bank
   audio.js              procedural WebAudio sound (no audio files)
   app.js                state machine, screens, game loop, scoring
 assets/
