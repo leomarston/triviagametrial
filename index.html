@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Trivia Quest</title>
+<meta name="description" content="Trivia Quest — a polished party-trivia game across six categories.">
+<meta name="theme-color" content="#3A2F5C">
+<link rel="icon" href="assets/icon.png">
+<style>html,body{background:#2E2548}</style>
 <link rel="stylesheet" href="styles/fonts.css">
 <link rel="stylesheet" href="styles/base.css">
 <link rel="stylesheet" href="styles/menu.css">
@@ -57,7 +61,7 @@
           <div class="stepper-group"><button class="step" data-step="secs" data-dir="-1">–</button>
           <span class="step-val" id="secsVal">20</span>
           <button class="step" data-step="secs" data-dir="1">+</button></div></div>
-        <div class="set-row"><div class="set-label">Show Hints</div><button class="toggle" data-set="hints"></button></div>
+        <div class="set-row"><div class="set-label">Fullscreen</div><button class="toggle" data-set="fullscreen"></button></div>
       </div>
       <button class="btn btn-primary wide" data-act="back-menu"><span>DONE</span></button>
     </div>
@@ -118,6 +122,13 @@
     <div class="question-wrap"><h1 class="question" id="question"></h1></div>
     <div class="answers" id="answers"></div>
     <div class="turn-flag" id="turnFlag"></div>
+    <div class="pause-overlay" id="pause">
+      <div class="pause-card">
+        <h2>Paused</h2>
+        <button class="btn btn-green" data-act="resume"><span>RESUME</span></button>
+        <button class="btn btn-secondary" data-act="quit-menu"><span>QUIT TO MENU</span></button>
+      </div>
+    </div>
   </section>
 
   <!-- ===================== LEADERBOARD (between questions) ===================== -->

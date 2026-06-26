@@ -148,3 +148,15 @@
 .pcard .pts .num.flash-bad{ animation:numBad .9s ease; }
 @keyframes numGood{ 0%{ color:#8CEE9A } 100%{ color:#fff } }
 @keyframes numBad{ 0%{ color:#F2A2A8 } 100%{ color:#fff } }
+
+/* ---------- pause overlay ---------- */
+.pause-overlay{ position:absolute; inset:0; z-index:40; display:none; place-items:center; background:rgba(18,12,38,.66); }
+.pause-overlay.show{ display:grid; }
+.pause-card{
+  width:420px; padding:34px 38px 38px; border-radius:32px;
+  background:url('../assets/art/ui/panel.svg') center/100% 100% no-repeat;
+  display:flex; flex-direction:column; align-items:center; gap:15px;
+}
+.pause-card h2{ font-family:var(--font-display); font-weight:800; font-size:42px; color:#fff; margin-bottom:6px;
+  text-shadow:0 3px 0 rgba(40,28,70,.35); }
+.pause-card .btn{ width:300px; }

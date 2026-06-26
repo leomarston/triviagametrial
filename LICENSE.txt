@@ -1,0 +1,13 @@
+Trivia Quest
+Copyright (c) 2026 Leo Marston. All rights reserved.
+
+This software and its original artwork, code, and assets are proprietary.
+No part of this product may be copied, distributed, or used to create
+derivative works without the express written permission of the copyright
+holder, except as permitted for the bundled third-party components below.
+
+Bundled third-party components retain their own licenses:
+  - Baloo 2 font  — SIL Open Font License 1.1 — see assets/fonts/OFL-baloo2.txt
+  - Nunito font   — SIL Open Font License 1.1 — see assets/fonts/OFL-nunito.txt
+
+See CREDITS.md for full attribution.

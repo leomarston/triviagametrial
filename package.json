@@ -1,0 +1,59 @@
+{
+  "name": "trivia-quest",
+  "productName": "Trivia Quest",
+  "version": "1.0.0",
+  "description": "A polished party-trivia game across six categories.",
+  "author": "Leo Marston",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "questions": "node tools/build_questions.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.leomarston.triviaquest",
+    "productName": "Trivia Quest",
+    "copyright": "Copyright © 2026 Leo Marston",
+    "directories": { "output": "dist", "buildResources": "build" },
+    "files": [
+      "index.html",
+      "styles/**/*",
+      "scripts/**/*",
+      "assets/art/**/*",
+      "assets/fonts/**/*",
+      "assets/icon.png",
+      "electron/**/*",
+      "!**/*.map"
+    ],
+    "win": {
+      "target": ["dir", "nsis"],
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "Trivia Quest"
+    },
+    "mac": {
+      "target": ["dir", "dmg"],
+      "icon": "build/icon.png",
+      "category": "public.app-category.games"
+    },
+    "linux": {
+      "target": ["dir", "AppImage"],
+      "icon": "build/icon.png",
+      "category": "Game"
+    }
+  }
+}

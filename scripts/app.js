@@ -16,7 +16,7 @@ const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=rand(i
 const clamp  = (v,lo,hi) => Math.max(lo, Math.min(hi, v));
 
 /* ---------- persistent settings ---------- */
-const DEFAULTS = { sound:true, music:false, timer:false, secs:20, hints:false, best:0 };
+const DEFAULTS = { sound:true, music:false, timer:false, secs:20, fullscreen:false, best:0 };
 let settings = load();
 function load(){ try{ return Object.assign({}, DEFAULTS, JSON.parse(localStorage.getItem('tq.settings')||'{}')); }catch(e){ return Object.assign({},DEFAULTS); } }
 function save(){ try{ localStorage.setItem('tq.settings', JSON.stringify(settings)); }catch(e){} }
@@ -71,9 +71,19 @@ function initMenu(){
 }
 function refreshBest(){ $('#bestLine').textContent = settings.best>0 ? `Best score: ${settings.best}` : 'Best score: —'; }
 function quit(){
+  if(window.steamShell && window.steamShell.quit){ window.steamShell.quit(); return; }
   const inner = $('#screen-menu .menu-inner');
   inner.innerHTML = `<div class="bye"><img src="assets/art/brand/mascot.svg" alt=""><p>Thanks for playing!</p><button class="btn btn-secondary" id="byeBack"><span>BACK</span></button></div>`;
   $('#byeBack').addEventListener('click', ()=>location.reload());
+}
+
+/* ---------- fullscreen (works in browser + Electron shell) ---------- */
+function applyFullscreen(on){
+  if(window.steamShell && window.steamShell.setFullscreen){ window.steamShell.setFullscreen(on); return; }
+  try{
+    if(on){ if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen(); }
+    else if(document.fullscreenElement && document.exitFullscreen){ document.exitFullscreen(); }
+  }catch(e){}
 }
 
 /* =========================================================
@@ -94,6 +104,7 @@ function initSettings(){
     if(settings.sound) Sfx.click();
     Sfx.setEnabled(settings.sound);
     if(k==='music') Sfx.setMusic(settings.music);
+    if(k==='fullscreen') applyFullscreen(settings.fullscreen);
     syncSettingsUI();
   }));
   $$('#screen-settings .step').forEach(s=>s.addEventListener('click', ()=>{
@@ -215,9 +226,32 @@ function startGame(){
   state.run = { qs: buildQuestions(), idx:0, players, active:0, locked:false, mode:state.config.mode };
   buildTopbar(); updateTopbar();
   $('#turnFlag').classList.remove('show');
+  state.paused = false; $('#pause').classList.remove('show');
   show('screen-game');
   if(settings.sound) Sfx.start();
   setTimeout(()=>nextQuestion(), 220);
+}
+
+/* ---------- pause / quit-to-menu ---------- */
+function pauseGame(){
+  if(!state.run || state.run.locked || state.paused) return;
+  if(!$('#screen-game.active')) return;
+  state.paused = true; clearTimeout(timerTO);
+  $('#pause').classList.add('show');
+  if(settings.sound) Sfx.click();
+}
+function resumeGame(){
+  if(!state.paused) return;
+  state.paused = false; $('#pause').classList.remove('show');
+  if(settings.sound) Sfx.click();
+  if(settings.timer && state.run && !state.run.locked) startTimer();
+}
+function quitToMenu(){
+  state.paused = false; clearTimeout(timerTO);
+  $('#pause').classList.remove('show');
+  state.run = null; Sfx.setMusic(false);
+  if(settings.sound) Sfx.click();
+  show('screen-menu'); refreshBest();
 }
 
 let topbarRefs = null;
@@ -468,11 +502,23 @@ function fit(){ const fr=$('#frame'); const s=Math.min(window.innerWidth/1280, w
 window.addEventListener('resize', fit);
 document.addEventListener('click', ()=>Sfx.unlock(), {once:true});
 
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape'){
+    if($('#screen-game.active')){ state.paused ? resumeGame() : pauseGame(); }
+    else if($('#screen-settings.active') || $('#screen-pregame.active')){ show('screen-menu'); }
+  } else if(e.key === 'F11' && !window.steamShell){
+    e.preventDefault(); settings.fullscreen = !settings.fullscreen; save(); applyFullscreen(settings.fullscreen);
+  }
+});
+
 document.addEventListener('DOMContentLoaded', ()=>{
   fit();
   Sfx.setEnabled(settings.sound);
   initMenu(); initSettings(); initPregame(); initResults();
   $('#screen-leaderboard [data-act="next-q"]').addEventListener('click', continueFromBoard);
+  $('#pause [data-act="resume"]').addEventListener('click', resumeGame);
+  $('#pause [data-act="quit-menu"]').addEventListener('click', quitToMenu);
+  if(settings.fullscreen) applyFullscreen(true);
   show('screen-menu');
 });
 })();

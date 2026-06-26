@@ -18,8 +18,20 @@ mode · players) → Game → Results.
 - **Solo vs Bots** — you answer every question while AI opponents race you.
 - **Pass & Play** — 2–4 players take turns on one device.
 
-Settings (sound FX, music, question timer, seconds-per-question, hints) persist
-in `localStorage`.
+A Kahoot-style leaderboard appears between questions. **Esc** pauses a match
+(Resume / Quit to Menu). Settings (sound FX, music, question timer,
+seconds-per-question, fullscreen) persist in `localStorage`; **F11** also
+toggles fullscreen.
+
+## Desktop build / Steam
+Trivia Quest ships as a native desktop app via Electron:
+```bash
+npm install
+npm start            # run the desktop app
+npm run dist:win     # build Windows (also :mac / :linux)
+```
+See **STEAM.md** for the full Steam (SteamPipe) upload walkthrough and the
+done-vs-todo checklist.
 
 ## What's inside
 ```
