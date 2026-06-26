@@ -1,9 +1,8 @@
 # Trivia Quest
 
 A polished, self-contained HTML5 party-trivia game with a hand-built vector
-art kit. No build step, no dependencies — open `index.html` and play.
-
-![Game screen](build/preview/game.png)
+art kit. Pure static site — no build step, no dependencies, no server code.
+Just open `index.html` and play.
 
 ## Play
 Open `index.html` in any modern browser, or serve the folder:
@@ -18,20 +17,18 @@ mode · players) → Game → Results.
 - **Solo vs Bots** — you answer every question while AI opponents race you.
 - **Pass & Play** — 2–4 players take turns on one device.
 
-A Kahoot-style leaderboard appears between questions. **Esc** pauses a match
-(Resume / Quit to Menu). Settings (sound FX, music, question timer,
-seconds-per-question, fullscreen) persist in `localStorage`; **F11** also
-toggles fullscreen.
+A leaderboard appears between questions. **Esc** pauses a match (Resume / Quit
+to Menu). Settings (sound FX, music, question timer, seconds-per-question,
+fullscreen) persist in `localStorage`.
 
-## Desktop build / Steam
-Trivia Quest ships as a native desktop app via Electron:
-```bash
-npm install
-npm start            # run the desktop app
-npm run dist:win     # build Windows (also :mac / :linux)
-```
-See **STEAM.md** for the full Steam (SteamPipe) upload walkthrough and the
-done-vs-todo checklist.
+## Deploy
+It's a static site — copy the folder to any static host (GitHub Pages, Netlify,
+an S3 bucket, a sub-folder of an existing site) and open `index.html`. All
+asset/script/style paths are **relative**, so it runs from any sub-path; opening
+the file directly (`file://`) works too. To regenerate the question bank after
+editing `assets/data/questions_source.json`, run `node tools/build_questions.js`
+and commit the updated `scripts/questions.js` (the dev tools in `tools/` are
+optional and never loaded by the game).
 
 ## What's inside
 ```

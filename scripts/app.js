@@ -506,8 +506,8 @@ document.addEventListener('keydown', (e)=>{
   if(e.key === 'Escape'){
     if($('#screen-game.active')){ state.paused ? resumeGame() : pauseGame(); }
     else if($('#screen-settings.active') || $('#screen-pregame.active')){ show('screen-menu'); }
-  } else if(e.key === 'F11' && !window.steamShell){
-    e.preventDefault(); settings.fullscreen = !settings.fullscreen; save(); applyFullscreen(settings.fullscreen);
+  } else if(e.key === 'F11' && window.steamShell && window.steamShell.toggleFullscreen){
+    e.preventDefault(); window.steamShell.toggleFullscreen();   // browser keeps native F11
   }
 });
 
@@ -518,7 +518,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   $('#screen-leaderboard [data-act="next-q"]').addEventListener('click', continueFromBoard);
   $('#pause [data-act="resume"]').addEventListener('click', resumeGame);
   $('#pause [data-act="quit-menu"]').addEventListener('click', quitToMenu);
-  if(settings.fullscreen) applyFullscreen(true);
+  if(settings.fullscreen && window.steamShell) applyFullscreen(true);  // never auto-FS in a browser (needs a gesture)
   show('screen-menu');
 });
 })();

@@ -19,6 +19,5 @@ The full license text accompanies each font in `assets/fonts/`.
 The trivia question set is supplied by the project owner
 (`assets/data/questions_source.json`).
 
-## Runtime / build tooling (not redistributed in the shipped game)
-- **Electron** (MIT) — desktop shell.
-- **electron-builder** (MIT) — packaging.
+The shipped game has **no runtime dependencies** — it's plain HTML, CSS, and
+JavaScript that runs by opening `index.html`.
